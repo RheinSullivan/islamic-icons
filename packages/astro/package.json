@@ -1,0 +1,15 @@
+{
+  "name": "@islamic-icons/astro",
+  "version": "0.1.0",
+  "type": "module",
+  "peerDependencies": {
+    "islamic-icons": "^0.1.0"
+  },
+  "files": [
+    "*.js",
+    "*.ts",
+    "*.svelte",
+    "*.vue",
+    "README.md"
+  ]
+}

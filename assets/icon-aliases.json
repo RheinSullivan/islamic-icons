@@ -1,0 +1,132 @@
+[
+  {
+    "name": "sheep",
+    "category": "food",
+    "canonical": "goat"
+  },
+  {
+    "name": "allah",
+    "category": "god",
+    "canonical": "allah-calligraphy"
+  },
+  {
+    "name": "allah99",
+    "category": "god",
+    "canonical": "allah-calligraphy"
+  },
+  {
+    "name": "allahText",
+    "category": "god",
+    "canonical": "allah-calligraphy"
+  },
+  {
+    "name": "islam",
+    "category": "god",
+    "canonical": "allah-calligraphy"
+  },
+  {
+    "name": "tawhid",
+    "category": "god",
+    "canonical": "allah-calligraphy"
+  },
+  {
+    "name": "hadji",
+    "category": "lifestyle",
+    "canonical": "hajj-caravan"
+  },
+  {
+    "name": "mosque-silhouette",
+    "category": "mosque",
+    "canonical": "mosque"
+  },
+  {
+    "name": "muslim",
+    "category": "people",
+    "canonical": "muslim-man"
+  },
+  {
+    "name": "muslim2",
+    "category": "people",
+    "canonical": "muslim-man"
+  },
+  {
+    "name": "muslimah2",
+    "category": "people",
+    "canonical": "muslimah"
+  },
+  {
+    "name": "kowtow",
+    "category": "prayer",
+    "canonical": "sujood"
+  },
+  {
+    "name": "prayer",
+    "category": "prayer",
+    "canonical": "prayer-man"
+  },
+  {
+    "name": "prayingPerson",
+    "category": "prayer",
+    "canonical": "prayer-man"
+  },
+  {
+    "name": "qibla",
+    "category": "prayer",
+    "canonical": "qibla-compass"
+  },
+  {
+    "name": "qibla2",
+    "category": "prayer",
+    "canonical": "qibla-compass"
+  },
+  {
+    "name": "sajadah",
+    "category": "prayer",
+    "canonical": "prayer-rug"
+  },
+  {
+    "name": "tasbih",
+    "category": "prayer",
+    "canonical": "tasbih-ring"
+  },
+  {
+    "name": "tasbih2",
+    "category": "prayer",
+    "canonical": "tasbih-large"
+  },
+  {
+    "name": "tasbih3",
+    "category": "prayer",
+    "canonical": "tasbih-large"
+  },
+  {
+    "name": "mohammad",
+    "category": "prophet",
+    "canonical": "muhammad-calligraphy"
+  },
+  {
+    "name": "quran",
+    "category": "quran",
+    "canonical": "quran-rehal"
+  },
+  {
+    "name": "quran2",
+    "category": "quran",
+    "canonical": "quran-rehal-open"
+  },
+  {
+    "name": "crescentMoon",
+    "category": "ramadan",
+    "canonical": "crescent-star"
+  },
+  {
+    "name": "drum2",
+    "category": "ramadan",
+    "canonical": "drum"
+  },
+  {
+    "name": "ornate-crescent",
+    "category": "ramadan",
+    "canonical": "lantern"
+  }
+]

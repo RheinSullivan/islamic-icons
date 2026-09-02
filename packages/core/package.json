@@ -1,0 +1,27 @@
+{
+  "name": "islamic-icons",
+  "version": "0.1.0",
+  "type": "module",
+  "license": "MIT",
+  "author": "Rhein Sullivan | Vyagra Nexus™",
+  "files": [
+    "*.js",
+    "icons",
+    "LICENSE",
+    "README.md"
+  ],
+  "exports": {
+    "./charity": "./charity.js",
+    "./flags": "./flags.js",
+    "./food": "./food.js",
+    "./god": "./god.js",
+    "./lifestyle": "./lifestyle.js",
+    "./mosque": "./mosque.js",
+    "./patterns": "./patterns.js",
+    "./people": "./people.js",
+    "./prayer": "./prayer.js",
+    "./prophet": "./prophet.js",
+    "./quran": "./quran.js",
+    "./ramadan": "./ramadan.js"
+  }
+}
