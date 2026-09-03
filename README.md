@@ -1,4 +1,6 @@
-# Islamic Icons
+# Atsarul Mujahidin (آثَارُ المُجَاهِدِيْنَ)
+
+**Traces of the Mujahidin** - Create something that leaves a lasting impact for the fighters.
 
 A framework-agnostic Islamic SVG and WebP icon library for the modern web.
 
@@ -7,16 +9,16 @@ The collection is organized around semantic categories and ships with three styl
 ## Installation
 
 ```bash
-bun add @rhein.sullivan/islamic-icons
-npm install @rhein.sullivan/islamic-icons
-pnpm add @rhein.sullivan/islamic-icons
-yarn add @rhein.sullivan/islamic-icons
+bun add atsarul-mujahidin
+npm install atsarul-mujahidin
+pnpm add atsarul-mujahidin
+yarn add atsarul-mujahidin
 ```
 
 For Deno, use the npm compatibility specifier:
 
 ```bash
-deno add npm:@rhein.sullivan/islamic-icons
+deno add npm:atsarul-mujahidin
 ```
 
 ## Usage
