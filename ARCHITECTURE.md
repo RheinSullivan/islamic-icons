@@ -19,7 +19,7 @@ import { mosque } from 'athar/color/mosque';
 
 #### React
 ```jsx
-import { Mosque } from 'athar/react/fill';
+import { Mosque } from 'atsarul-mujahidin/react/fill';
 <Mosque colors="#000" className="w-6 h-6" />
 ```
 
