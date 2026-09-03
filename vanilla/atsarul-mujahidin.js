@@ -114,7 +114,7 @@ class AtsarulMujahidinIcon extends HTMLElement {
 
 // Register the custom element
 if (typeof window !== 'undefined' && !customElements.get('athar-icon')) {
-	customElements.define('athar-icon', AtharIcon);
+	customElements.define('atsarul-mujahidin', AtsarulMujahidinIcon);
 }
 
 export default AtharIcon;
