@@ -1,0 +1,22 @@
+# Build scripts and tooling
+node_modules/
+scripts/
+tsconfig.json
+bun.lockb
+.git/
+.gitignore
+
+# Assets that shouldn't be published
+assets/backup-old-icons/
+assets/donations/
+assets/framework-logos/
+assets/sources/
+assets/islamic-icons_benner.png
+assets/logo-islamic-icons.svg
+
+# Development files
+*.tgz
+docs/
+api/
+CHANGELOG.md
+ATTRIBUTION.md

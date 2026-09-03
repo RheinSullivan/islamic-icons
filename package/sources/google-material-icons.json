@@ -1,0 +1,15 @@
+{
+  "name": "Google Material Icons",
+  "kind": "external",
+  "discoveredVia": "Google Fonts / official repository",
+  "source": "https://github.com/google/material-design-icons",
+  "license": "Apache-2.0",
+  "licensePolicy": "Official Google Material Icons are Apache-2.0. Import only the exact SVG from the official repository and retain provenance.",
+  "examples": [
+    {
+      "name": "Mosque",
+      "url": "https://github.com/google/material-design-icons/blob/master/src/maps/mosque/materialicons/24px.svg",
+      "license": "Apache-2.0"
+    }
+  ]
+}

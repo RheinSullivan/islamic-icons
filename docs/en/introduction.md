@@ -38,10 +38,10 @@ Islamic Icons v0.1 includes:
 
 ```bash
 # Install with bun (recommended)
-bun add islamic-icons
+bun add @rhein.sullivan/islamic-icons
 
 # Or with npm
-npm install islamic-icons
+npm install @vyagranexus/islamic-icons
 ```
 
 ```jsx

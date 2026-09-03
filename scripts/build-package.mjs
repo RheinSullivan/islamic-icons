@@ -206,10 +206,10 @@ The collection is organized around semantic categories and ships with three styl
 ## Installation
 
 \`\`\`bash
-bun add islamic-icons
-npm install islamic-icons
-pnpm add islamic-icons
-yarn add islamic-icons
+bun add @rhein.sullivan/islamic-icons
+npm install @rhein.sullivan/islamic-icons
+pnpm add @rhein.sullivan/islamic-icons
+yarn add @rhein.sullivan/islamic-icons
 \`\`\`
 
 For Deno, use the npm compatibility specifier:

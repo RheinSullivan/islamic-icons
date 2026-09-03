@@ -1,11 +1,11 @@
 {
-  "name": "islamic-icons",
+  "name": "athar",
   "version": "0.1.0",
-  "description": "A framework-agnostic Islamic SVG and WebP icon library for the modern web.",
+  "description": "Athar (أثر) - Islamic icon library. Create something that leaves a lasting impact. أثر means trace, impact, legacy.",
   "author": {
-    "name": "Islamic Icons Community",
+    "name": "Athar Icons Community",
     "email": "icons@vyagra.dev",
-    "url": "https://github.com/RheinSullivan/islamicIcons"
+    "url": "https://github.com/RheinSullivan/athar"
   },
   "license": "MIT",
   "type": "module",
@@ -14,6 +14,8 @@
   "types": "./index.d.ts",
   "sideEffects": false,
   "keywords": [
+    "athar",
+    "أثر",
     "islamic",
     "icons",
     "svg",
@@ -28,18 +30,20 @@
     "hajj",
     "sadaqah",
     "zakat",
+    "legacy",
+    "impact",
     "framework-agnostic",
     "design-system",
     "ui"
   ],
-  "homepage": "https://github.com/RheinSullivan/islamicIcons",
+  "homepage": "https://athar.vyagra.dev",
   "repository": {
     "type": "git",
-    "url": "https://github.com/RheinSullivan/islamicIcons.git",
+    "url": "https://github.com/RheinSullivan/athar.git",
     "directory": "library"
   },
   "bugs": {
-    "url": "https://github.com/RheinSullivan/islamicIcons/issues"
+    "url": "https://github.com/RheinSullivan/athar/issues"
   },
   "files": [
     "index.js",
@@ -48,6 +52,13 @@
     "metadata.d.ts",
     "categories.js",
     "categories.d.ts",
+    "fill",
+    "outline",
+    "color",
+    "react",
+    "vue",
+    "svelte",
+    "vanilla",
     "icons",
     "sources",
     "README.md",
@@ -69,6 +80,19 @@
       "types": "./categories.d.ts",
       "import": "./categories.js"
     },
+    "./fill/*": "./fill/*.js",
+    "./outline/*": "./outline/*.js",
+    "./color/*": "./color/*.js",
+    "./react/fill": "./react/fill/index.js",
+    "./react/outline": "./react/outline/index.js",
+    "./react/color": "./react/color/index.js",
+    "./vue/fill": "./vue/fill/index.js",
+    "./vue/outline": "./vue/outline/index.js",
+    "./vue/color": "./vue/color/index.js",
+    "./svelte/fill": "./svelte/fill/index.js",
+    "./svelte/outline": "./svelte/outline/index.js",
+    "./svelte/color": "./svelte/color/index.js",
+    "./vanilla": "./vanilla/athar.js",
     "./icons/*": "./icons/*/index.js",
     "./icons/*.js": "./icons/*.js",
     "./sources/*": "./sources/*.json",
@@ -79,16 +103,17 @@
     "registry": "https://registry.npmjs.org/"
   },
   "scripts": {
-    "build": "bun run icons:catalog && bun run icons:package",
+    "build": "bun run icons:catalog && bun run icons:package && bun run icons:components",
     "icons:catalog": "bun scripts/build-catalog.ts",
     "icons:package": "bun scripts/build-package.ts",
+    "icons:components": "bun scripts/build-components.ts",
     "icons:validate": "bun scripts/validate-icons.ts",
     "icons:import:google": "bun scripts/import-google.ts",
     "typecheck": "node --check index.js && node --check metadata.js && node --check categories.js",
     "test": "node --test",
     "lint": "node --check index.js && node --check metadata.js && node --check categories.js && node scripts/validate-publish.mjs",
     "pack": "npm pack",
-    "prepublishOnly": "bun run icons:catalog && bun run icons:package && bun run icons:validate && bun run build && node scripts/validate-publish.mjs"
+    "prepublishOnly": "bun run icons:catalog && bun run icons:package && bun run icons:components && bun run icons:validate && node scripts/validate-publish.mjs"
   },
   "engines": {
     "node": ">=18.0.0"

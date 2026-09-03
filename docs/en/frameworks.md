@@ -7,7 +7,7 @@ Islamic Icons provides official packages for all major JavaScript frameworks wit
 ### Installation
 
 ```bash
-bun add islamic-icons
+bun add @rhein.sullivan/islamic-icons
 ```
 
 ### Basic Usage
@@ -61,7 +61,7 @@ export default function Index() {
 ### Installation
 
 ```bash
-bun add islamic-icons
+bun add @rhein.sullivan/islamic-icons
 ```
 
 ### Basic Usage
@@ -114,7 +114,7 @@ import { Kaaba } from 'islamic-icons/vue';
 ### Installation
 
 ```bash
-bun add islamic-icons
+bun add @rhein.sullivan/islamic-icons
 ```
 
 ### Basic Usage
@@ -161,7 +161,7 @@ interface IconProps {
 ### Installation
 
 ```bash
-bun add islamic-icons
+bun add @rhein.sullivan/islamic-icons
 ```
 
 ### Basic Usage
@@ -200,7 +200,7 @@ export class AppComponent {}
 ### Installation
 
 ```bash
-bun add islamic-icons
+bun add @rhein.sullivan/islamic-icons
 ```
 
 ### Basic Usage

@@ -6,16 +6,16 @@ Islamic Icons is available on npm and can be installed with any package manager:
 
 ```bash
 # Bun (recommended)
-bun add islamic-icons
+bun add @rhein.sullivan/islamic-icons
 
 # npm
-npm install islamic-icons
+npm install @rhein.sullivan/islamic-icons
 
 # yarn
-yarn add islamic-icons
+yarn add @rhein.sullivan/islamic-icons
 
 # pnpm
-pnpm add islamic-icons
+pnpm add @rhein.sullivan/islamic-icons
 
 # deno
 deno add npm:islamic-icons
@@ -26,7 +26,7 @@ deno add npm:islamic-icons
 ### React / Remix
 
 ```bash
-bun add islamic-icons
+bun add @rhein.sullivan/islamic-icons
 ```
 
 ```jsx
@@ -46,7 +46,7 @@ function App() {
 ### Vue / Nuxt
 
 ```bash
-bun add islamic-icons
+bun add @rhein.sullivan/islamic-icons
 ```
 
 ```vue
@@ -66,7 +66,7 @@ import { Kaaba, Mosque, Quran } from 'islamic-icons/vue';
 ### Svelte / SvelteKit
 
 ```bash
-bun add islamic-icons
+bun add @rhein.sullivan/islamic-icons
 ```
 
 ```svelte
@@ -82,7 +82,7 @@ bun add islamic-icons
 ### Angular
 
 ```bash
-bun add islamic-icons
+bun add @rhein.sullivan/islamic-icons
 ```
 
 ```typescript
@@ -104,7 +104,7 @@ export class AppComponent {}
 ### Astro
 
 ```bash
-bun add islamic-icons
+bun add @rhein.sullivan/islamic-icons
 ```
 
 ```astro
@@ -120,7 +120,7 @@ import { Kaaba, Mosque, Quran } from 'islamic-icons/astro';
 ### Plain HTML
 
 ```bash
-bun add islamic-icons
+bun add @rhein.sullivan/islamic-icons
 ```
 
 ```html
@@ -136,7 +136,7 @@ For prototyping or simple projects, you can use Islamic Icons via CDN:
 ```html
 <!-- Placeholder - actual CDN link will be available after npm publish -->
 <script type="module">
-  import { Kaaba } from 'https://cdn.jsdelivr.net/npm/islamic-icons@latest/react';
+  import { Kaaba } from 'https://cdn.jsdelivr.net/npm/@rhein.sullivan/islamic-icons@latest/react';
 </script>
 ```
 

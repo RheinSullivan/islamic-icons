@@ -181,7 +181,7 @@ test('logo metadata and required usage syntax are present', () => {
 
 test('installation docs cover Bun npm pnpm and Yarn', () => {
   const text = fs.readFileSync(path.join(root, 'library/docs/en/installation.md'), 'utf8')
-  for (const cmd of ['bun add islamic-icons', 'npm install islamic-icons', 'pnpm add islamic-icons', 'yarn add islamic-icons']) assert.match(text, new RegExp(cmd.replace(/[.*+?^${}()|[\]\\]/g, '\\$&')))
+  for (const cmd of ['bun add @rhein.sullivan/islamic-icons', 'npm install @rhein.sullivan/islamic-icons', 'pnpm add @rhein.sullivan/islamic-icons', 'yarn add @rhein.sullivan/islamic-icons']) assert.match(text, new RegExp(cmd.replace(/[.*+?^${}()|[\]\\]/g, '\\$&')))
 })
 
 test('no em dash remains in UI and project documentation', () => {
