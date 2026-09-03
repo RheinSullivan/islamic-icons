@@ -24,9 +24,10 @@ deno add npm:atsarul-mujahidin
 ### React / JSX
 
 ```jsx
-import { Kaaba, MosqueSimple } from 'atsarul-mujahidin/react/fill';
-// For outline: 'atsarul-mujahidin/react/outline'
-// For color: 'atsarul-mujahidin/react/color'
+import { Kaaba } from 'atsarul-mujahidin/react/kaaba-fill';
+import { MosqueSimple } from 'atsarul-mujahidin/react/mosquesimple-fill';
+// For outline: '/react/kaaba-outline'
+// For color: '/react/kaaba-color'
 
 export default function App() {
   return (
@@ -42,9 +43,10 @@ export default function App() {
 
 ```vue
 <script setup>
-import { Kaaba, MosqueSimple } from 'atsarul-mujahidin/vue/fill';
-// For outline: 'atsarul-mujahidin/vue/outline'
-// For color: 'atsarul-mujahidin/vue/color'
+import { Kaaba } from 'atsarul-mujahidin/vue/kaaba-fill';
+import { MosqueSimple } from 'atsarul-mujahidin/vue/mosquesimple-fill';
+// For outline: '/vue/kaaba-outline'
+// For color: '/vue/kaaba-color'
 </script>
 
 <template>
@@ -57,9 +59,10 @@ import { Kaaba, MosqueSimple } from 'atsarul-mujahidin/vue/fill';
 
 ```svelte
 <script>
-  import { Kaaba, MosqueSimple } from 'atsarul-mujahidin/svelte/fill';
-  // For outline: 'atsarul-mujahidin/svelte/outline'
-  // For color: 'atsarul-mujahidin/svelte/color'
+  import { Kaaba } from 'atsarul-mujahidin/svelte/kaaba-fill';
+  import { MosqueSimple } from 'atsarul-mujahidin/svelte/mosquesimple-fill';
+  // For outline: '/svelte/kaaba-outline'
+  // For color: '/svelte/kaaba-color'
 </script>
 
 <Kaaba colors="#10b981" size={32} />
@@ -70,9 +73,10 @@ import { Kaaba, MosqueSimple } from 'atsarul-mujahidin/vue/fill';
 
 ```astro
 ---
-import { Kaaba, MosqueSimple } from 'atsarul-mujahidin/astro/fill';
-// For outline: 'atsarul-mujahidin/astro/outline'
-// For color: 'atsarul-mujahidin/astro/color'
+import { Kaaba } from 'atsarul-mujahidin/astro/kaaba-fill';
+import { MosqueSimple } from 'atsarul-mujahidin/astro/mosquesimple-fill';
+// For outline: '/astro/kaaba-outline'
+// For color: '/astro/kaaba-color'
 ---
 <Kaaba colors="#10b981" size={32} />
 <MosqueSimple colors="#3b82f6" size={24} />
