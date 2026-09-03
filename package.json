@@ -1,11 +1,11 @@
 {
-  "name": "athar",
+  "name": "atsarul-mujahidin",
   "version": "0.1.0",
-  "description": "Athar (أثر) - Islamic icon library. Create something that leaves a lasting impact. أثر means trace, impact, legacy.",
+  "description": "Atsarul Mujahidin (آثَارُ المُجَاهِدِيْنَ) - Islamic icon library. Traces of the Mujahidin. Create something that leaves a lasting impact for the fighters.",
   "author": {
-    "name": "Athar Icons Community",
+    "name": "Atsarul Mujahidin Community",
     "email": "icons@vyagra.dev",
-    "url": "https://github.com/RheinSullivan/athar"
+    "url": "https://github.com/RheinSullivan/atsarul-mujahidin"
   },
   "license": "MIT",
   "type": "module",
@@ -14,6 +14,8 @@
   "types": "./index.d.ts",
   "sideEffects": false,
   "keywords": [
+    "atsarul-mujahidin",
+    "آثَارُ المُجَاهِدِيْنَ",
     "athar",
     "أثر",
     "islamic",
@@ -43,7 +45,7 @@
     "directory": "library"
   },
   "bugs": {
-    "url": "https://github.com/RheinSullivan/athar/issues"
+    "url": "https://github.com/RheinSullivan/atsarul-mujahidin/issues"
   },
   "files": [
     "index.js",
