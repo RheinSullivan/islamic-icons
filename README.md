@@ -21,17 +21,68 @@ deno add npm:@rhein.sullivan/islamic-icons
 
 ## Usage
 
+### React / JSX
+
+```jsx
+import { Mosque } from 'atsarul-mujahidin/react/fill';
+
+export default function App() {
+  return <Mosque colors="#10b981" size={32} />;
+}
+```
+
+### Vue
+
+```vue
+<script setup>
+import { Mosque } from 'atsarul-mujahidin/vue/fill';
+</script>
+
+<template>
+  <Mosque colors="#10b981" :size="32" />
+</template>
+```
+
+### Svelte / SvelteKit
+
+```svelte
+<script>
+  import { Mosque } from 'atsarul-mujahidin/svelte/fill';
+</script>
+
+<Mosque colors="#10b981" size={32} />
+```
+
+### Astro
+
+```astro
+---
+import { Mosque } from 'atsarul-mujahidin/astro/fill';
+---
+<Mosque colors="#10b981" size={32} />
+```
+
+### Vanilla JS (Web Component)
+
+```html
+<script type="module">
+  import 'atsarul-mujahidin/vanilla';
+</script>
+
+<atsarul-mujahidin variant="mosque" colors="#10b981" size="32">Masjid</atsarul-mujahidin>
+```
+
 ### Native HTML
 
 ```html
 <img src="/assets/icons/mosque/mosque/fill.svg" alt="Mosque" width="24" height="24" />
 ```
 
-### JavaScript / TypeScript
+### TypeScript / JavaScript (Direct imports)
 
 ```ts
-import { categories, catalog, metadata } from 'islamic-icons';
-import { mosque, mosqueOutline, mosqueColor } from 'islamic-icons/icons/mosque.js';
+import { categories, catalog, metadata } from 'atsarul-mujahidin';
+import { mosque, mosqueOutline, mosqueColor } from 'atsarul-mujahidin/icons/mosque.js';
 
 console.log(categories);
 console.log(mosque);     // URL string to fill variant
@@ -39,53 +90,12 @@ console.log(mosqueOutline);
 console.log(mosqueColor);
 ```
 
-### React / JSX
-
-```jsx
-import { mosque } from 'islamic-icons/icons/mosque.js';
-
-export function MosqueIcon() {
-	return <img src={mosque} alt="Mosque" width={24} height={24} />;
-}
-```
-
-### Vue
-
-```vue
-<script setup lang="ts">
-import { mosque } from 'islamic-icons/icons/mosque.js';
-</script>
-
-<template>
-	<img :src="mosque" alt="Mosque" width="24" height="24" />
-</template>
-```
-
-### Svelte / SvelteKit
-
-```svelte
-<script lang="ts">
-	import { mosque } from 'islamic-icons/icons/mosque.js';
-</script>
-
-<img src={mosque} alt="Mosque" width="24" height="24" />
-```
-
-### Astro
-
-```astro
----
-import { mosque } from 'islamic-icons/icons/mosque.js';
----
-<img src={mosque} alt="Mosque" width="24" height="24" />
-```
-
 ### Aliases
 
 Several canonical icons have aliases for convenience:
 
 ```ts
-import { allah, quran, tasbih, qibla, muslim } from 'islamic-icons/icons/god.js';
+import { allah, quran, tasbih, qibla, muslim } from 'atsarul-mujahidin/icons/god.js';
 // or any of the relevant category files
 ```
 
@@ -93,12 +103,18 @@ import { allah, quran, tasbih, qibla, muslim } from 'islamic-icons/icons/god.js'
 
 | Path | Description |
 | --- | --- |
-| `islamic-icons` | `catalog`, `sources`, `metadata`, `categories`, `library` |
-| `islamic-icons/metadata` | `metadata` (name, version, icon count, etc.) |
-| `islamic-icons/categories` | `categories` array with id, name, count |
-| `islamic-icons/icons/<category>` | Per-icon URL exports for `<category>` |
-| `islamic-icons/icons/<category>.js` | Same as above (CJS-friendly) |
-| `islamic-icons/sources/<slug>.json` | License & attribution metadata per external source |
+| `atsarul-mujahidin` | `catalog`, `sources`, `metadata`, `categories`, `library` |
+| `atsarul-mujahidin/metadata` | `metadata` (name, version, icon count, etc.) |
+| `atsarul-mujahidin/categories` | `categories` array with id, name, count |
+| `atsarul-mujahidin/icons/<category>` | Per-icon URL exports for `<category>` |
+| `atsarul-mujahidin/icons/<category>.js` | Same as above (CJS-friendly) |
+| `atsarul-mujahidin/sources/<slug>.json` | License & attribution metadata per external source |
+| `atsarul-mujahidin/react/<variant>` | React components |
+| `atsarul-mujahidin/vue/<variant>` | Vue components |
+| `atsarul-mujahidin/svelte/<variant>` | Svelte components |
+| `atsarul-mujahidin/angular/<variant>` | Angular components |
+| `atsarul-mujahidin/astro/<variant>` | Astro components |
+| `atsarul-mujahidin/vanilla` | Web Component |
 
 ## License
 
