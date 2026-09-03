@@ -1,8 +1,6 @@
 # Atsarul Mujahidin (آثَارُ المُجَاهِدِيْنَ)
 
-**Traces of the Mujahidin** - Create something that leaves a lasting impact for the fighters.
-
-A framework-agnostic Islamic SVG and WebP icon library for the modern web.
+**Traces of the Mujahidin** - A framework-agnostic Islamic icon library. Create something that leaves a lasting impact for the fighters.
 
 The collection is organized around semantic categories and ships with three style variants (fill, outline, color) per logical icon when the source artwork permits. Every icon is a local asset; no runtime fetch is required to render.
 

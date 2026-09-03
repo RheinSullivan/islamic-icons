@@ -101,7 +101,7 @@ class AtsarulMujahidinIcon extends HTMLElement {
 			this.shadowRoot.appendChild(style);
 			this.shadowRoot.appendChild(svg);
 		} catch (error) {
-			console.error('Atsarul Mujahidin icon error:', error);
+			console.error('Athar icon error:', error);
 			this.shadowRoot.innerHTML = `
 				<style>
 					:host { display: inline-block; color: red; }
@@ -117,4 +117,4 @@ if (typeof window !== 'undefined' && !customElements.get('atsarul-mujahidin')) {
 	customElements.define('atsarul-mujahidin', AtsarulMujahidinIcon);
 }
 
-export default AtsarulMujahidinIcon;
+export default AtharIcon;

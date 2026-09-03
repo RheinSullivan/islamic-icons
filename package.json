@@ -94,7 +94,7 @@
     "./svelte/fill": "./svelte/fill/index.js",
     "./svelte/outline": "./svelte/outline/index.js",
     "./svelte/color": "./svelte/color/index.js",
-    "./vanilla": "./vanilla/athar.js",
+    "./vanilla": "./vanilla/atsarul-mujahidin.js",
     "./icons/*": "./icons/*/index.js",
     "./icons/*.js": "./icons/*.js",
     "./sources/*": "./sources/*.json",
@@ -120,5 +120,5 @@
   "engines": {
     "node": ">=18.0.0"
   },
-  "logo": "assets/logo-islamic-icons.svg"
+  "logo": "assets/logo-atsarul-mujahidin.svg"
 }
