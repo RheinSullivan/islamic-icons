@@ -22,9 +22,6 @@ export const mosqueNightOriginal = new URL("./icons/mosque/mosque-night/sources/
 // Mosque Outline
 export const mosqueOutlineOriginal = new URL("./icons/mosque/mosque-outline/sources/mary-akveo/original.svg", import.meta.url).href;
 
-export const locationMuslim = locationMosque;
-export const locationMuslimOutline = locationMosqueOutline;
-export const locationMuslimColor = locationMosqueColor;
 export const mosqueSilhouette = mosque;
 export const mosqueSilhouetteOutline = mosqueOutline;
 export const mosqueSilhouetteColor = mosqueColor;
