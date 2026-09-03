@@ -38,9 +38,10 @@ Islamic Icons v0.1 includes:
 
 ```bash
 # Install with bun (recommended)
-bun add @rhein.sullivan/islamic-icons
+bun add athar
 
 # Or with npm
+npm install athar
 npm install @vyagranexus/islamic-icons
 ```
 
