@@ -1,12 +1,22 @@
 {
   "name": "atsarul-mujahidin",
-  "version": "0.1.0",
-  "description": "Atsarul Mujahidin (آثَارُ المُجَاهِدِيْنَ) - Islamic icon library. Traces of the Mujahidin. Create something that leaves a lasting impact for the fighters.",
+  "version": "0.1.1",
+  "description": "Framework-agnostic Islamic SVG and WebP icon library for modern web apps. 81+ icons including mosque, prayer, Quran, Ramadan, Palestine flag, kaaba, and more. Works with React, Vue, Svelte, Angular, Astro, vanilla JavaScript/TypeScript. By Rhein Sullivan and Vyagra Nexus™.",
   "author": {
-    "name": "Atsarul Mujahidin Community",
-    "email": "icons@vyagra.dev",
-    "url": "https://github.com/RheinSullivan/atsarul-mujahidin"
+    "name": "Rhein Sullivan",
+    "email": "rheinsullivan@vyagra.dev",
+    "url": "https://github.com/RheinSullivan"
   },
+  "contributors": [
+    {
+      "name": "Vyagra Nexus™ Team",
+      "url": "https://vyagra.dev"
+    },
+    {
+      "name": "Atsarul Mujahidin Community",
+      "url": "https://github.com/RheinSullivan/islamic-icons"
+    }
+  ],
   "license": "MIT",
   "type": "module",
   "main": "./index.js",
@@ -15,35 +25,46 @@
   "sideEffects": false,
   "keywords": [
     "atsarul-mujahidin",
-    "آثَارُ المُجَاهِدِيْنَ",
     "islamic",
     "icons",
     "svg",
     "webp",
     "icon-library",
-    "atsarul-mujahidin",
     "muslim",
     "mosque",
     "quran",
     "ramadan",
     "prayer",
+    "kaaba",
+    "palestine",
     "hajj",
-    "sadaqah",
     "zakat",
-    "legacy",
-    "impact",
+    "sadaqah",
+    "calligraphy",
+    "arabic",
     "framework-agnostic",
+    "react",
+    "vue",
+    "svelte",
+    "angular",
+    "astro",
+    "typescript",
+    "javascript",
+    "component-library",
     "design-system",
-    "ui"
+    "ui",
+    "rhein-sullivan",
+    "vyagra-nexus",
+    "mujahidin"
   ],
-  "homepage": "https://atsarul-mujahidin.vyagra.dev",
+  "homepage": "https://github.com/RheinSullivan/islamic-icons#readme",
   "repository": {
     "type": "git",
-    "url": "https://github.com/RheinSullivan/atsarul-mujahidin.git",
+    "url": "https://github.com/RheinSullivan/islamic-icons.git",
     "directory": "library"
   },
   "bugs": {
-    "url": "https://github.com/RheinSullivan/atsarul-mujahidin/issues"
+    "url": "https://github.com/RheinSullivan/islamic-icons/issues"
   },
   "files": [
     "index.js",
@@ -92,6 +113,9 @@
     "./svelte/*-fill": "./svelte/fill/*.svelte",
     "./svelte/*-outline": "./svelte/outline/*.svelte",
     "./svelte/*-color": "./svelte/color/*.svelte",
+    "./svelte/fill/*": "./svelte/fill/*.svelte",
+    "./svelte/outline/*": "./svelte/outline/*.svelte",
+    "./svelte/color/*": "./svelte/color/*.svelte",
     "./vanilla": "./vanilla/atsarul-mujahidin.js",
     "./icons/*": "./icons/*/index.js",
     "./icons/*.js": "./icons/*.js",

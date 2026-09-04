@@ -255,13 +255,15 @@ for (const item of catalog) {
 				const innerMatch = svgContent.match(/<svg[^>]*>(.*?)<\/svg>/s);
 				const innerContent = innerMatch ? innerMatch[1].trim() : '';
 
-				// Svelte component
+				// Svelte 5 component with runes mode
 				const svelteComponent = `<script>
-	export let colors = 'currentColor';
-	export let size = 24;
-	export let strokeWidth = 1.5;
-	let className = '';
-	export { className as class };
+	let {
+		colors = 'currentColor',
+		size = 24,
+		strokeWidth = 1.5,
+		class: className = '',
+		...restProps
+	} = $props();
 </script>
 
 <svg
@@ -274,7 +276,7 @@ for (const item of catalog) {
 	class={className}
 	role="img"
 	aria-label="${item.title}"
-	{...$$restProps}
+	{...restProps}
 >
 ${innerContent}
 </svg>

@@ -21,21 +21,31 @@ deno add npm:atsarul-mujahidin
 
 ## Usage
 
+### Native HTML
+
+```html
+<img src="/assets/icons/mosque/mosque/fill.svg" alt="Mosque" width="24" height="24" />
+```
+
+### JavaScript / TypeScript
+
+```ts
+import { categories, catalog, metadata } from 'atsarul-mujahidin';
+import { mosque, mosqueOutline, mosqueColor } from 'atsarul-mujahidin/icons/mosque.js';
+
+console.log(categories);
+console.log(mosque);     // URL string to fill variant
+console.log(mosqueOutline);
+console.log(mosqueColor);
+```
+
 ### React / JSX
 
 ```jsx
-import { MosqueSimple } from 'atsarul-mujahidin/react/fill/MosqueSimple';
-import { KaabaSimple } from 'atsarul-mujahidin/react/fill/KaabaSimple';
-import { QuranBook } from 'atsarul-mujahidin/react/fill/QuranBook';
+import { mosque } from 'atsarul-mujahidin/icons/mosque.js';
 
-export function App() {
-	return (
-		<>
-			<MosqueSimple width={24} height={24} />
-			<KaabaSimple width={24} height={24} />
-			<QuranBook width={24} height={24} />
-		</>
-	);
+export function MosqueIcon() {
+	return <img src={mosque} alt="Mosque" width={24} height={24} />;
 }
 ```
 
@@ -43,15 +53,11 @@ export function App() {
 
 ```vue
 <script setup lang="ts">
-import MosqueSimple from 'atsarul-mujahidin/vue/fill/MosqueSimple.vue';
-import KaabaSimple from 'atsarul-mujahidin/vue/fill/KaabaSimple.vue';
-import QuranBook from 'atsarul-mujahidin/vue/fill/QuranBook.vue';
+import { mosque } from 'atsarul-mujahidin/icons/mosque.js';
 </script>
 
 <template>
-	<MosqueSimple :width="24" :height="24" />
-	<KaabaSimple :width="24" :height="24" />
-	<QuranBook :width="24" :height="24" />
+	<img :src="mosque" alt="Mosque" width="24" height="24" />
 </template>
 ```
 
@@ -59,47 +65,19 @@ import QuranBook from 'atsarul-mujahidin/vue/fill/QuranBook.vue';
 
 ```svelte
 <script lang="ts">
-	import MosqueSimple from 'atsarul-mujahidin/svelte/fill/MosqueSimple.svelte';
-	import KaabaSimple from 'atsarul-mujahidin/svelte/fill/KaabaSimple.svelte';
-	import QuranBook from 'atsarul-mujahidin/svelte/fill/QuranBook.svelte';
+	import { mosque } from 'atsarul-mujahidin/icons/mosque.js';
 </script>
 
-<MosqueSimple width={24} height={24} />
-<KaabaSimple width={24} height={24} />
-<QuranBook width={24} height={24} />
+<img src={mosque} alt="Mosque" width="24" height="24" />
 ```
 
-### Vanilla JavaScript / Web Components
+### Astro
 
-```html
-<script type="module">
-	import 'atsarul-mujahidin/vanilla/atsarul-mujahidin.js';
-</script>
-
-<atsarul-mujahidin-icon 
-	icon="mosque-simple" 
-	variant="fill" 
-	width="24" 
-	height="24">
-</atsarul-mujahidin-icon>
-
-<atsarul-mujahidin-icon 
-	icon="kaaba-simple" 
-	variant="fill" 
-	width="24" 
-	height="24">
-</atsarul-mujahidin-icon>
-```
-
-### JavaScript / TypeScript (Direct SVG URL Import)
-
-```ts
-import { categories, catalog, metadata } from 'atsarul-mujahidin';
-import { mosqueSimple, mosqueSimpleOutline } from 'atsarul-mujahidin/icons/mosque.js';
-
-console.log(categories);
-console.log(mosqueSimple);     // URL string to fill variant SVG
-console.log(mosqueSimpleOutline);
+```astro
+---
+import { mosque } from 'atsarul-mujahidin/icons/mosque.js';
+---
+<img src={mosque} alt="Mosque" width="24" height="24" />
 ```
 
 ### Aliases
