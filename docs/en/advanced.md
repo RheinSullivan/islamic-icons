@@ -4,10 +4,10 @@
 
 ### Type Definitions
 
-Islamic Icons includes full TypeScript support:
+Atsarul Mujahidin includes full TypeScript support:
 
 ```typescript
-import { Kaaba, type IconProps } from 'islamic-icons/react';
+import { Kaaba, type IconProps } from 'atsarul-mujahidin/react';
 
 // All props are typed
 const props: IconProps = {
@@ -27,7 +27,7 @@ function Icon() {
 
 ```typescript
 import type { ComponentType } from 'react';
-import type { IconProps } from 'islamic-icons/react';
+import type { IconProps } from 'atsarul-mujahidin/react';
 
 type IconComponent = ComponentType<IconProps>;
 
@@ -100,10 +100,10 @@ function App() {
 
 ## With Lucide Lab
 
-Islamic Icons is designed to work alongside other icon libraries:
+Atsarul Mujahidin is designed to work alongside other icon libraries:
 
 ```jsx
-import { Kaaba } from 'islamic-icons/react';
+import { Kaaba } from 'atsarul-mujahidin/react';
 import { Home, User } from 'lucide-react';
 
 function App() {
@@ -119,7 +119,7 @@ function App() {
 
 ## Filled Icons Strategy
 
-Islamic Icons uses semantic naming for filled vs outline:
+Atsarul Mujahidin uses semantic naming for filled vs outline:
 
 ```jsx
 // ❌ Don't create separate components
@@ -179,7 +179,7 @@ function IconWithBadge() {
 import { lazy, Suspense } from 'react';
 
 const Kaaba = lazy(() => 
-  import('islamic-icons/react').then(mod => ({ default: mod.Kaaba }))
+  import('atsarul-mujahidin/react').then(mod => ({ default: mod.Kaaba }))
 );
 
 function App() {
@@ -195,7 +195,7 @@ function App() {
 
 ```jsx
 async function loadIcon(name: string) {
-  const module = await import('islamic-icons/react');
+  const module = await import('atsarul-mujahidin/react');
   return module[name];
 }
 
@@ -219,7 +219,7 @@ npm run build -- --analyze
 
 ```tsx
 // app/page.tsx
-import { Kaaba } from 'islamic-icons/react';
+import { Kaaba } from 'atsarul-mujahidin/react';
 
 export default function Page() {
   return <Kaaba size={48} variant="fill" />;
@@ -230,7 +230,7 @@ export default function Page() {
 
 ```tsx
 // pages/index.tsx
-import { Kaaba } from 'islamic-icons/react';
+import { Kaaba } from 'atsarul-mujahidin/react';
 
 export default function Home() {
   return <Kaaba size={48} variant="fill" />;
@@ -242,7 +242,7 @@ export default function Home() {
 ```svelte
 <!-- src/routes/+page.svelte -->
 <script>
-  import { Kaaba } from 'islamic-icons/svelte';
+  import { Kaaba } from 'atsarul-mujahidin/svelte';
 </script>
 
 <Kaaba size={48} variant="fill" />
@@ -254,7 +254,7 @@ export default function Home() {
 
 ```tsx
 import { render } from '@testing-library/react';
-import { Kaaba } from 'islamic-icons/react';
+import { Kaaba } from 'atsarul-mujahidin/react';
 
 test('renders Kaaba icon', () => {
   const { container } = render(<Kaaba size={48} variant="fill" />);
@@ -265,7 +265,7 @@ test('renders Kaaba icon', () => {
 ### Mock Icons
 
 ```tsx
-// __mocks__/islamic-icons/react.tsx
+// __mocks__/atsarul-mujahidin/react.tsx
 export const Kaaba = ({ size }: { size?: number }) => (
   <div data-testid="kaaba-icon" style={{ width: size, height: size }} />
 );
@@ -275,7 +275,7 @@ export const Kaaba = ({ size }: { size?: number }) => (
 
 ```tsx
 import type { ComponentType } from 'react';
-import type { IconProps } from 'islamic-icons/react';
+import type { IconProps } from 'atsarul-mujahidin/react';
 
 interface CustomIconProps extends IconProps {
   label?: string;
@@ -309,10 +309,10 @@ const KaabaWithLabel = createIconWrapper(Kaaba);
 
 ### IntelliSense
 
-Islamic Icons provides full TypeScript definitions for autocomplete:
+Atsarul Mujahidin provides full TypeScript definitions for autocomplete:
 
 ```tsx
-import { Kaaba } from 'islamic-icons/react';
+import { Kaaba } from 'atsarul-mujahidin/react';
 
 // Hover over Kaaba to see available props
 // - size?: number | string
@@ -323,16 +323,16 @@ import { Kaaba } from 'islamic-icons/react';
 
 ### Snippets
 
-Create `.vscode/islamic-icons.code-snippets`:
+Create `.vscode/atsarul-mujahidin.code-snippets`:
 
 ```json
 {
-  "Islamic Icon": {
+  "Atsarul Mujahidin Icon": {
     "prefix": "ii",
     "body": [
       "<${1:Kaaba} size={${2:48}} variant=\"${3:fill}\" />"
     ],
-    "description": "Islamic Icons component"
+    "description": "Atsarul Mujahidin component"
   }
 }
 ```

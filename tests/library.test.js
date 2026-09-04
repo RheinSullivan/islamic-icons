@@ -139,7 +139,7 @@ test('search modal regression is centered with 40% opacity and 4px blur', () => 
 
 test('hero title restores original sizing and copy', () => {
   assert.match(docs, /text-\[clamp\(54px,6\.6vw,96px\)\]/)
-  assert.match(docs, /Islamic icons for the modern web\./)
+  assert.match(docs, /Atsarul Mujahidin icons for the modern web\./)
 })
 
 test('donation page, README policy, and transparency document exist', () => {
@@ -166,22 +166,22 @@ test('Web Docs and library are physically separated', () => {
   assert.ok(fs.existsSync(path.join(root, 'web-docs/src/routes/+layout.svelte')))
   assert.ok(fs.existsSync(path.join(root, 'library/assets/catalog.json')))
   assert.ok(fs.existsSync(path.join(root, 'library/packages/core/package.json')))
-  assert.ok(fs.existsSync(path.join(root, 'web-docs/src/lib/assets/logo-islamic-icons.svg')))
+  assert.ok(fs.existsSync(path.join(root, 'web-docs/src/lib/assets/logo-atsarul-mujahidin.svg')))
 })
 
 test('logo metadata and required usage syntax are present', () => {
   assert.match(fs.readFileSync(path.join(root, 'web-docs/src/app.html'), 'utf8'), /og:image/)
   const layoutContent = fs.readFileSync(path.join(root, 'web-docs/src/routes/+layout.svelte'), 'utf8')
   const pageContent = fs.readFileSync(path.join(root, 'web-docs/src/routes/+page.svelte'), 'utf8')
-  assert.match(layoutContent + pageContent, /logo-islamic-icons\.svg/)
+  assert.match(layoutContent + pageContent, /logo-atsarul-mujahidin\.svg/)
   const docsText = layoutContent + pageContent
-  assert.ok(docsText.includes('Islamic Icons'))
+  assert.ok(docsText.includes('Atsarul Mujahidin'))
   assert.ok(fs.existsSync(path.join(root, 'library/assets/metadata.json')))
 })
 
 test('installation docs cover Bun npm pnpm and Yarn', () => {
   const text = fs.readFileSync(path.join(root, 'library/docs/en/installation.md'), 'utf8')
-  for (const cmd of ['bun add @rhein.sullivan/islamic-icons', 'npm install @rhein.sullivan/islamic-icons', 'pnpm add @rhein.sullivan/islamic-icons', 'yarn add @rhein.sullivan/islamic-icons']) assert.match(text, new RegExp(cmd.replace(/[.*+?^${}()|[\]\\]/g, '\\$&')))
+  for (const cmd of ['bun add atsarul-mujahidin', 'npm install atsarul-mujahidin', 'pnpm add atsarul-mujahidin', 'yarn add atsarul-mujahidin']) assert.match(text, new RegExp(cmd.replace(/[.*+?^${}()|[\]\\]/g, '\\$&')))
 })
 
 test('no em dash remains in UI and project documentation', () => {

@@ -1,6 +1,6 @@
-# Islamic Icons Documentation
+# Atsarul Mujahidin Documentation
 
-Islamic Icons is a framework-agnostic Islamic SVG/WebP library for modern web applications. The interactive docs are intentionally closer to a real developer portal than a single gallery: the collection, source provenance, API references, framework examples, contribution workflow and individual icon details live in separate routes.
+Atsarul Mujahidin is a framework-agnostic Islamic SVG/WebP library for modern web applications. The interactive docs are intentionally closer to a real developer portal than a single gallery: the collection, source provenance, API references, framework examples, contribution workflow and individual icon details live in separate routes.
 
 ## Interactive routes
 

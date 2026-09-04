@@ -1,9 +1,9 @@
 {
-  "name": "islamic-icons",
+  "name": "atsarul-mujahidin",
   "version": "0.1.0",
   "description": "A framework-agnostic Islamic SVG and WebP icon library for the modern web.",
   "author": {
-    "name": "Islamic Icons Community",
+    "name": "Atsarul Mujahidin Community",
     "email": "icons@vyagra.dev",
     "url": "https://github.com/RheinSullivan/islamicIcons"
   },
@@ -19,7 +19,7 @@
     "svg",
     "webp",
     "icon-library",
-    "islamic-icons",
+    "atsarul-mujahidin",
     "muslim",
     "mosque",
     "quran",
@@ -93,5 +93,5 @@
   "engines": {
     "node": ">=18.0.0"
   },
-  "logo": "assets/logo-islamic-icons.svg"
+  "logo": "assets/logo-atsarul-mujahidin.svg"
 }
