@@ -1,318 +1,112 @@
-# Usage & Styling
+# Usage
 
-## Available Icons
+A practical reference for building with Atsarul Mujahidin while keeping the artwork local and the provenance visible.
 
-Browse all icons at [islamicicons.vyagranexus.org/icons](https://islamicicons.vyagranexus.org/icons)
+## Framework / Library Component
 
-## REST API
+Use the semantic category that contains the icon you need. Framework and library examples should use the component form with **className**, **size** and **style** props.
 
-Islamic Icons provides a REST API for programmatic access to icon metadata.
+### Import Pattern
 
-### Base URL
+```js
+// Import per-icon with variant suffix:
+import { Kaaba } from 'atsarul-mujahidin/react/kaaba-fill';
+import { Kaaba as KaabaOutline } from 'atsarul-mujahidin/react/kaaba-outline';
+import { Kaaba as KaabaColor } from 'atsarul-mujahidin/react/kaaba-color';
 
-```
-https://islamicicons.vyagranexus.org/api
-```
-
-### Endpoints
-
-#### Get All Icons
-
-```http
-GET /api/icons
+// Use in JSX:
+<Kaaba className="icon" size={32} style={{ color: '#10b981' }} />
+<KaabaOutline size={24} />
+<KaabaColor size={48} />
 ```
 
-Query parameters:
-- `category` - Filter by category (mosque, prayer, quran, etc.)
-- `source` - Filter by source (community, svg-repo)
-- `search` - Search by name, title, or aliases
-- `variant` - Filter by variant availability (fill, outline, color)
-- `page` - Page number (default: 1)
-- `limit` - Items per page (default: 50)
+**Icon Name Format:**
+- Convert icon name to PascalCase (e.g., `mosque-simple` → `MosqueSimple`)
+- Append variant: `-fill`, `-outline`, `-color`
+- Framework prefix: `react/`, `vue/`, `svelte/`, etc.
 
-Example:
-```bash
-curl https://islamicicons.vyagranexus.org/api/icons?category=mosque&limit=10
+For a React-style project, the same component can be imported from the relevant framework adapter and rendered directly in JSX.
+
+## Native HTML (Web Component)
+
+**NO IMPORT NEEDED** - Use CDN or local script like Bootstrap Icons:
+
+### Via CDN (Recommended)
+
+```html
+<!-- Add this once in your HTML head or before closing body tag -->
+<script src="https://cdn.jsdelivr.net/npm/atsarul-mujahidin@0.1.0/vanilla/atsarul-mujahidin.js"></script>
+
+<!-- Then use anywhere in your HTML -->
+<atsarul-mujahidin variant="mosque" colors="#10b981" size="32">Masjid</atsarul-mujahidin>
+<atsarul-mujahidin variant="quran" colors="#3b82f6" size="24">Al-Quran</atsarul-mujahidin>
+<atsarul-mujahidin variant="kaaba" colors="#ef4444" size="48">Kaaba</atsarul-mujahidin>
 ```
 
-Response:
-```json
-{
-  "success": true,
-  "data": [
-    {
-      "name": "mosque",
-      "title": "Mosque",
-      "category": "mosque",
-      "aliases": ["masjid"],
-      "sources": [
-        {
-          "id": "community",
-          "label": "Community",
-          "variants": ["fill", "outline", "original"],
-          "license": "CC BY 4.0",
-          "author": "contributor-name",
-          "url": "https://source-url.com"
-        }
-      ]
-    }
-  ],
-  "pagination": {
-    "page": 1,
-    "limit": 10,
-    "total": 73,
-    "totalPages": 8,
-    "hasNext": true,
-    "hasPrev": false
-  },
-  "meta": {
-    "timestamp": "2024-01-01T00:00:00.000Z",
-    "version": "0.1.0"
-  }
-}
+### Via NPM Install
+
+```html
+<!-- After: npm install atsarul-mujahidin -->
+<!-- Add this script tag in your HTML -->
+<script src="node_modules/atsarul-mujahidin/vanilla/atsarul-mujahidin.js"></script>
+
+<!-- Then use the web component -->
+<atsarul-mujahidin variant="mosque" colors="#10b981" size="32">Masjid</atsarul-mujahidin>
 ```
 
-#### Get Specific Icon
+## Direct SVG Reference
 
-```http
-GET /api/icons/:name
+Native HTML can also reference the local SVG directly when a custom element is not part of the application:
+
+```html
+<img src="/assets/icons/mosque/mosque/original.svg" alt="Mosque" />
+<img src="node_modules/atsarul-mujahidin/fill/mosque.svg" alt="Mosque" width="24" height="24" />
 ```
 
-Example:
-```bash
-curl https://islamicicons.vyagranexus.org/api/icons/kaaba
+## Component Props
+
+All framework components accept the following props:
+
+| Prop | Type | Default | Description |
+| --- | --- | --- | --- |
+| `size` | `number \| string` | `24` | Width and height in pixels |
+| `colors` | `string` | - | CSS color value (hex, rgb, named) |
+| `className` | `string` | - | CSS class name(s) |
+| `style` | `object` | - | Inline CSS styles |
+
+**Web Component Attributes:**
+
+| Attribute | Type | Default | Description |
+| --- | --- | --- | --- |
+| `variant` | `string` | required | Icon name (lowercase with hyphens) |
+| `size` | `string` | `24` | Width and height in pixels |
+| `colors` | `string` | - | CSS color value |
+| `class` | `string` | - | CSS class name(s) |
+| `style` | `string` | - | Inline CSS styles |
+
+## Import from Catalog
+
+For advanced use cases, import the full catalog:
+
+```ts
+import { catalog, categories, metadata } from 'atsarul-mujahidin';
+
+console.log(catalog);      // Array of all icon metadata
+console.log(categories);   // Array of category definitions
+console.log(metadata);     // Library metadata (name, version, count)
 ```
 
-Response:
-```json
-{
-  "success": true,
-  "data": {
-    "name": "kaaba",
-    "title": "Kaaba",
-    "category": "quran",
-    "aliases": ["mecca", "holy"],
-    "sources": [
-      {
-        "id": "community",
-        "label": "Community",
-        "variants": ["fill", "outline"],
-        "license": "CC BY 4.0",
-        "author": "contributor-name",
-        "url": "https://source-url.com",
-        "paths": {
-          "fill": "/assets/icons/quran/kaaba/fill.svg",
-          "outline": "/assets/icons/quran/kaaba/outline.svg"
-        }
-      }
-    ]
-  },
-  "meta": {
-    "timestamp": "2024-01-01T00:00:00.000Z",
-    "version": "0.1.0"
-  }
-}
-```
+## Local Assets
 
-#### Get Categories
+All source assets remain local to the package; applications do not need a runtime request to the upstream icon API. This ensures:
 
-```http
-GET /api/categories
-```
+- **Zero Network Dependency:** Icons load instantly without API calls
+- **Offline Support:** Works without internet connection
+- **Version Control:** Lock icon versions with package.json
+- **Build-Time Optimization:** Bundle only icons you use
 
-Response:
-```json
-{
-  "success": true,
-  "data": [
-    {
-      "id": "mosque",
-      "name": "Mosque",
-      "count": 6
-    },
-    {
-      "id": "prayer",
-      "name": "Prayer",
-      "count": 10
-    }
-  ],
-  "total": 12,
-  "meta": {
-    "timestamp": "2024-01-01T00:00:00.000Z",
-    "version": "0.1.0"
-  }
-}
-```
+## Next Steps
 
-#### Get Sources
-
-```http
-GET /api/sources
-```
-
-Response:
-```json
-{
-  "success": true,
-  "data": [
-    {
-      "id": "community",
-      "label": "Community",
-      "count": 50
-    },
-    {
-      "id": "svg-repo",
-      "label": "SVG Repo",
-      "count": 23
-    }
-  ],
-  "total": 2,
-  "meta": {
-    "timestamp": "2024-01-01T00:00:00.000Z",
-    "version": "0.1.0"
-  }
-}
-```
-
-### Error Responses
-
-```json
-{
-  "success": false,
-  "error": "Icon not found",
-  "message": "No icon found with name: invalid-name"
-}
-```
-
-### Rate Limiting
-
-The API is currently not rate-limited but this may change in future versions. Please be respectful with requests.
-
-### CORS
-
-CORS is enabled for all origins. You can make requests from any domain.
-
-### Usage Example
-
-```javascript
-// Fetch all mosque icons
-async function getMosqueIcons() {
-  const response = await fetch(
-    'https://islamicicons.vyagranexus.org/api/icons?category=mosque'
-  );
-  const data = await response.json();
-  return data.data;
-}
-
-// Search for specific icon
-async function searchIcon(query) {
-  const response = await fetch(
-    `https://islamicicons.vyagranexus.org/api/icons?search=${encodeURIComponent(query)}`
-  );
-  const data = await response.json();
-  return data.data;
-}
-
-// Get icon details
-async function getIconDetails(name) {
-  const response = await fetch(
-    `https://islamicicons.vyagranexus.org/api/icons/${name}`
-  );
-  const data = await response.json();
-  return data.data;
-}
-```
-
-## Code Optimization
-
-### Tree Shaking
-
-Islamic Icons is fully tree-shakeable. Only import what you use:
-
-```jsx
-// ✅ Good - only bundles Kaaba and Mosque
-import { Kaaba, Mosque } from 'islamic-icons/react';
-
-// ❌ Bad - bundles entire library
-import * as Icons from 'islamic-icons/react';
-```
-
-### Bundle Size
-
-- Per icon: ~1-3KB (gzipped)
-- With tree shaking: Only what you import
-- No runtime dependencies
-
-## Accessibility
-
-### Alt Text
-
-```jsx
-// React with img wrapper
-<div role="img" aria-label="Kaaba icon">
-  <Kaaba size={48} />
-</div>
-
-// Or semantic HTML
-<figure>
-  <Kaaba size={48} />
-  <figcaption className="sr-only">Kaaba</figcaption>
-</figure>
-```
-
-### Focus States
-
-```css
-.icon-button:focus-visible {
-  outline: 2px solid #328460;
-  outline-offset: 2px;
-  border-radius: 4px;
-}
-```
-
-### Screen Readers
-
-```jsx
-<button 
-  aria-label="Open prayer times"
-  onClick={openPrayerTimes}
->
-  <PrayerMan size={24} aria-hidden="true" />
-</button>
-```
-
-## Official Packages
-
-### Icon Availability
-
-Check which variant an icon has:
-
-```javascript
-// All icons have at least one variant
-// Common variants:
-- fill: Solid filled icon
-- outline: Stroke-only icon  
-- color: Multi-color icon
-- original: Original source style
-```
-
-### Official Packages
-
-| Framework | Import Path |
-|-----------|-------------|
-| React | `islamic-icons/react` |
-| Vue | `islamic-icons/vue` |
-| Svelte | `islamic-icons/svelte` |
-| Angular | `islamic-icons/angular` |
-| Astro | `islamic-icons/astro` |
-| Static | Direct asset path |
-
-## Community
-
-Found a bug or want to contribute?
-
-- [GitHub Issues](https://github.com/RheinSullivan/islamic-icons/issues)
-- [Contributing Guide](/docs/contributing)
-- [Code of Conduct](/docs/code-of-conduct)
-
-Next: [Advanced Topics](/docs/advanced)
+- [Variants](./VARIANTS.md) - Understand fill, outline, and color variants
+- [Frameworks](./FRAMEWORKS.md) - Framework-specific examples
+- [Sources](./SOURCES.md) - Source attribution and provenance

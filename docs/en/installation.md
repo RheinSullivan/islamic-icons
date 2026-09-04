@@ -1,155 +1,75 @@
 # Installation
 
-## Package Manager
+A practical reference for building with Atsarul Mujahidin while keeping the artwork local and the provenance visible.
 
-Islamic Icons is available on npm and can be installed with any package manager:
+## Install
 
-```bash
-# Bun (recommended)
-bun add @rhein.sullivan/islamic-icons
-
-# npm
-npm install @rhein.sullivan/islamic-icons
-
-# yarn
-yarn add @rhein.sullivan/islamic-icons
-
-# pnpm
-pnpm add @rhein.sullivan/islamic-icons
-
-# deno
-deno add npm:islamic-icons
-```
-
-## Framework-Specific Installation
-
-### React / Remix
+Install the library with the package manager used by your project. The package exposes semantic category entry points and keeps the artwork as local SVG/WebP assets.
 
 ```bash
-bun add @rhein.sullivan/islamic-icons
+bun add atsarul-mujahidin
+npm install atsarul-mujahidin
+pnpm add atsarul-mujahidin
+yarn add atsarul-mujahidin
 ```
 
-```jsx
-import { Kaaba, Mosque, Quran } from 'islamic-icons/react';
+### Deno Support
 
-function App() {
-  return (
-    <>
-      <Kaaba size={48} variant="fill" color="#328460" />
-      <Mosque size={48} variant="outline" />
-      <Quran size={48} variant="color" />
-    </>
-  );
-}
-```
-
-### Vue / Nuxt
+For Deno, use the npm compatibility specifier:
 
 ```bash
-bun add @rhein.sullivan/islamic-icons
+deno add npm:atsarul-mujahidin
 ```
 
-```vue
-<script setup>
-import { Kaaba, Mosque, Quran } from 'islamic-icons/vue';
-</script>
+## Run the Web Docs locally
 
-<template>
-  <div>
-    <Kaaba :size="48" variant="fill" color="#328460" />
-    <Mosque :size="48" variant="outline" />
-    <Quran :size="48" variant="color" />
-  </div>
-</template>
-```
-
-### Svelte / SvelteKit
+If you want to contribute or browse the icon catalog locally:
 
 ```bash
-bun add @rhein.sullivan/islamic-icons
+git clone <repository>
+cd atsarul-mujahidin
+bun install
+bun run docs
 ```
 
-```svelte
-<script>
-  import { Kaaba, Mosque, Quran } from 'islamic-icons/svelte';
-</script>
+For contributors, use Bun for the repository build pipeline. The published package can be installed with Bun, npm, pnpm or Yarn.
 
-<Kaaba size={48} variant="fill" color="#328460" />
-<Mosque size={48} variant="outline" />
-<Quran size={48} variant="color" />
-```
+## Build the library
 
-### Angular
+To rebuild the library from source (for contributors):
 
 ```bash
-bun add @rhein.sullivan/islamic-icons
+bun run icons:catalog    # Generate catalog from assets
+bun run icons:package    # Package for distribution
+bun run icons:validate   # Validate metadata and licenses
+bun run build            # Build all artifacts
 ```
 
-```typescript
-import { Component } from '@angular/core';
-import { KaabaIcon, MosqueIcon, QuranIcon } from 'islamic-icons/angular';
+## Package Structure
 
-@Component({
-  selector: 'app-root',
-  imports: [KaabaIcon, MosqueIcon, QuranIcon],
-  template: `
-    <kaaba-icon [size]="48" variant="fill" color="#328460" />
-    <mosque-icon [size]="48" variant="outline" />
-    <quran-icon [size]="48" variant="color" />
-  `
-})
-export class AppComponent {}
+After installation, the package provides:
+
+```
+node_modules/atsarul-mujahidin/
+├── react/           # React components
+├── vue/             # Vue components
+├── svelte/          # Svelte components
+├── angular/         # Angular components
+├── astro/           # Astro components
+├── vanilla/         # Web Component
+├── fill/            # Fill variant SVGs
+├── outline/         # Outline variant SVGs
+├── color/           # Color variant SVGs/WebPs
+├── sources/         # Attribution metadata
+├── icons/           # Per-category exports
+├── catalog.js       # Complete icon catalog
+├── categories.js    # Category definitions
+├── metadata.js      # Library metadata
+└── package.json
 ```
 
-### Astro
+## Next Steps
 
-```bash
-bun add @rhein.sullivan/islamic-icons
-```
-
-```astro
----
-import { Kaaba, Mosque, Quran } from 'islamic-icons/astro';
----
-
-<Kaaba size={48} variant="fill" color="#328460" />
-<Mosque size={48} variant="outline" />
-<Quran size={48} variant="color" />
-```
-
-### Plain HTML
-
-```bash
-bun add @rhein.sullivan/islamic-icons
-```
-
-```html
-<!-- Direct SVG import -->
-<img src="node_modules/islamic-icons/assets/icons/quran/kaaba/fill.svg" alt="Kaaba" width="48" height="48" />
-<img src="node_modules/islamic-icons/assets/icons/mosque/mosque/outline.svg" alt="Mosque" width="48" height="48" />
-```
-
-## CDN Usage
-
-For prototyping or simple projects, you can use Islamic Icons via CDN:
-
-```html
-<!-- Placeholder - actual CDN link will be available after npm publish -->
-<script type="module">
-  import { Kaaba } from 'https://cdn.jsdelivr.net/npm/@rhein.sullivan/islamic-icons@latest/react';
-</script>
-```
-
-## Verify Installation
-
-After installation, verify it works:
-
-```bash
-# Check if package is installed
-bun pm ls | grep islamic-icons
-
-# Or with npm
-npm list islamic-icons
-```
-
-Next: [Framework Guides](/docs/frameworks)
+- [Usage](./USAGE.md) - Learn how to use icons in your framework
+- [Frameworks](./FRAMEWORKS.md) - Framework-specific examples
+- [Variants](./VARIANTS.md) - Understand fill, outline, and color variants

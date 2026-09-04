@@ -1,335 +1,169 @@
-# Framework Guides
+# Frameworks
 
-Islamic Icons provides official packages for all major JavaScript frameworks with consistent APIs and TypeScript support.
+A practical reference for building with Atsarul Mujahidin while keeping the artwork local and the provenance visible.
 
-## React / Remix
+## Overview
 
-### Installation
+SVG is the compatibility layer. Framework adapters are convenience packages, not a requirement for using the collection. All frameworks share the same import pattern:
 
-```bash
-bun add @rhein.sullivan/islamic-icons
+```
+atsarul-mujahidin/{framework}/{iconname}-{variant}
 ```
 
-### Basic Usage
+Where:
+- `{framework}`: `react`, `vue`, `svelte`, `angular`, `astro`
+- `{iconname}`: lowercase icon name (e.g., `kaaba`, `mosque`, `quran`)
+- `{variant}`: `fill`, `outline`, `color`
+
+## Canonical component usage
+
+```js
+// Import per-icon:
+import { Kaaba } from 'atsarul-mujahidin/react/kaaba-fill';
+import { Kaaba as KaabaOutline } from 'atsarul-mujahidin/react/kaaba-outline';
+
+<Kaaba className="" size="" style="" />
+```
+
+Use the same component-shaped API in framework documentation, then adapt the surrounding syntax to the framework compiler. For plain HTML, use the native custom-element form below.
+
+## Native HTML (Web Component)
+
+```html
+<script src="https://cdn.jsdelivr.net/npm/atsarul-mujahidin@0.1.0/vanilla/atsarul-mujahidin.js"></script>
+
+<atsarul-mujahidin variant="kaaba" class="" size="" style="">Kaaba</atsarul-mujahidin>
+```
+
+## Framework Examples
+
+### React / Remix
 
 ```jsx
-import { Kaaba, Mosque, Quran } from 'islamic-icons/react';
+import { Kaaba } from 'atsarul-mujahidin/react/kaaba-fill';
+import { Mosque } from 'atsarul-mujahidin/react/mosque-outline';
+import { Quran } from 'atsarul-mujahidin/react/quran-color';
 
-function App() {
-  return (
-    <div className="flex gap-4">
-      <Kaaba size={48} variant="fill" />
-      <Mosque size={48} variant="outline" color="#328460" />
-      <Quran size={48} variant="color" />
-    </div>
-  );
-}
-```
-
-### Props
-
-```typescript
-interface IconProps {
-  size?: number | string;          // Default: 24
-  variant?: 'fill' | 'outline' | 'color' | 'original';
-  color?: string;                  // Only for fill/outline
-  className?: string;
-  style?: React.CSSProperties;
-  strokeWidth?: number;            // Only for outline
-  onClick?: () => void;
-}
-```
-
-### With Remix
-
-```jsx
-// app/routes/_index.tsx
-import { Kaaba } from 'islamic-icons/react';
-
-export default function Index() {
+export default function App() {
   return (
     <div>
-      <h1>Welcome to Remix</h1>
-      <Kaaba size={48} variant="fill" />
+      <Kaaba size={32} colors="#10b981" />
+      <Mosque size={24} colors="#3b82f6" />
+      <Quran size={48} />
     </div>
   );
 }
 ```
 
-## Vue / Nuxt
+**Package:** `atsarul-mujahidin/react/iconname-fill`
 
-### Installation
-
-```bash
-bun add @rhein.sullivan/islamic-icons
-```
-
-### Basic Usage
+### Vue / Nuxt
 
 ```vue
 <script setup>
-import { Kaaba, Mosque, Quran } from 'islamic-icons/vue';
-</script>
-
-<template>
-  <div class="flex gap-4">
-    <Kaaba :size="48" variant="fill" />
-    <Mosque :size="48" variant="outline" color="#328460" />
-    <Quran :size="48" variant="color" />
-  </div>
-</template>
-```
-
-### Props
-
-```typescript
-interface IconProps {
-  size?: number | string;
-  variant?: 'fill' | 'outline' | 'color' | 'original';
-  color?: string;
-  class?: string;
-  style?: Record<string, any>;
-  strokeWidth?: number;
-}
-```
-
-### With Nuxt
-
-```vue
-<!-- pages/index.vue -->
-<script setup>
-import { Kaaba } from 'islamic-icons/vue';
+import { Kaaba } from 'atsarul-mujahidin/vue/kaaba-fill';
+import { Mosque } from 'atsarul-mujahidin/vue/mosque-outline';
+import { Quran } from 'atsarul-mujahidin/vue/quran-color';
 </script>
 
 <template>
   <div>
-    <h1>Welcome to Nuxt</h1>
-    <Kaaba :size="48" variant="fill" />
+    <Kaaba :size="32" colors="#10b981" />
+    <Mosque :size="24" colors="#3b82f6" />
+    <Quran :size="48" />
   </div>
 </template>
 ```
 
-## Svelte / SvelteKit
+**Package:** `atsarul-mujahidin/vue/iconname-fill`
 
-### Installation
-
-```bash
-bun add @rhein.sullivan/islamic-icons
-```
-
-### Basic Usage
+### Svelte / SvelteKit
 
 ```svelte
 <script>
-  import { Kaaba, Mosque, Quran } from 'islamic-icons/svelte';
+  import { Kaaba } from 'atsarul-mujahidin/svelte/kaaba-fill';
+  import { Mosque } from 'atsarul-mujahidin/svelte/mosque-outline';
+  import { Quran } from 'atsarul-mujahidin/svelte/quran-color';
 </script>
 
-<div class="flex gap-4">
-  <Kaaba size={48} variant="fill" />
-  <Mosque size={48} variant="outline" color="#328460" />
-  <Quran size={48} variant="color" />
-</div>
+<Kaaba size={32} colors="#10b981" />
+<Mosque size={24} colors="#3b82f6" />
+<Quran size={48} />
 ```
 
-### Props
+**Package:** `atsarul-mujahidin/svelte/iconname-fill`
 
-```typescript
-interface IconProps {
-  size?: number | string;
-  variant?: 'fill' | 'outline' | 'color' | 'original';
-  color?: string;
-  class?: string;
-  style?: string;
-  strokeWidth?: number;
-}
-```
-
-### With SvelteKit
-
-```svelte
-<!-- src/routes/+page.svelte -->
-<script>
-  import { Kaaba } from 'islamic-icons/svelte';
-</script>
-
-<h1>Welcome to SvelteKit</h1>
-<Kaaba size={48} variant="fill" />
-```
-
-## Angular
-
-### Installation
-
-```bash
-bun add @rhein.sullivan/islamic-icons
-```
-
-### Basic Usage
+### Angular
 
 ```typescript
 import { Component } from '@angular/core';
-import { KaabaIcon, MosqueIcon, QuranIcon } from 'islamic-icons/angular';
+import { Kaaba } from 'atsarul-mujahidin/angular/kaaba-fill';
+import { Mosque } from 'atsarul-mujahidin/angular/mosque-outline';
 
 @Component({
   selector: 'app-root',
-  standalone: true,
-  imports: [KaabaIcon, MosqueIcon, QuranIcon],
   template: `
-    <div class="flex gap-4">
-      <kaaba-icon [size]="48" variant="fill" />
-      <mosque-icon [size]="48" variant="outline" color="#328460" />
-      <quran-icon [size]="48" variant="color" />
-    </div>
-  `
+    <kaaba [size]="32" colors="#10b981"></kaaba>
+    <mosque [size]="24" colors="#3b82f6"></mosque>
+  `,
+  standalone: true,
+  imports: [Kaaba, Mosque]
 })
 export class AppComponent {}
 ```
 
-### Props
+**Package:** `atsarul-mujahidin/angular/iconname-fill`
 
-```typescript
-@Input() size?: number | string = 24;
-@Input() variant?: 'fill' | 'outline' | 'color' | 'original' = 'fill';
-@Input() color?: string;
-@Input() class?: string;
-@Input() strokeWidth?: number;
-```
-
-## Astro
-
-### Installation
-
-```bash
-bun add @rhein.sullivan/islamic-icons
-```
-
-### Basic Usage
+### Astro
 
 ```astro
 ---
-import { Kaaba, Mosque, Quran } from 'islamic-icons/astro';
+import { Kaaba } from 'atsarul-mujahidin/astro/kaaba-fill';
+import { Mosque } from 'atsarul-mujahidin/astro/mosque-outline';
+import { Quran } from 'atsarul-mujahidin/astro/quran-color';
 ---
-
-<div class="flex gap-4">
-  <Kaaba size={48} variant="fill" />
-  <Mosque size={48} variant="outline" color="#328460" />
-  <Quran size={48} variant="color" />
-</div>
+<Kaaba size={32} colors="#10b981" />
+<Mosque size={24} colors="#3b82f6" />
+<Quran size={48} />
 ```
 
-### Props
+**Package:** `atsarul-mujahidin/astro/iconname-fill`
 
-```typescript
-interface Props {
-  size?: number | string;
-  variant?: 'fill' | 'outline' | 'color' | 'original';
-  color?: string;
-  class?: string;
-  style?: string;
-  strokeWidth?: number;
-}
-```
+### Plain HTML
 
-## Plain HTML
-
-### Direct SVG Import
+**NO IMPORT** - Use CDN or local script:
 
 ```html
 <!DOCTYPE html>
 <html>
 <head>
-  <title>Islamic Icons</title>
+  <script src="https://cdn.jsdelivr.net/npm/atsarul-mujahidin@0.1.0/vanilla/atsarul-mujahidin.js"></script>
 </head>
 <body>
-  <!-- Direct file reference -->
-  <img 
-    src="node_modules/islamic-icons/assets/icons/quran/kaaba/fill.svg" 
-    alt="Kaaba" 
-    width="48" 
-    height="48"
-  />
-  
-  <!-- Or with a bundler -->
-  <img 
-    src="@/node_modules/islamic-icons/assets/icons/mosque/mosque/outline.svg" 
-    alt="Mosque"
-    width="48"
-    height="48"
-  />
+  <atsarul-mujahidin variant="kaaba" size="32" colors="#10b981">Kaaba</atsarul-mujahidin>
+  <atsarul-mujahidin variant="mosque" size="24" colors="#3b82f6">Mosque</atsarul-mujahidin>
+  <atsarul-mujahidin variant="quran" size="48">Quran</atsarul-mujahidin>
 </body>
 </html>
 ```
 
-### With Module Script
+**Package:** CDN or local script
 
-```html
-<script type="module">
-  import { Kaaba } from 'islamic-icons/react';
-  // Note: Requires build setup with bundler
-</script>
-```
+## Framework Summary
 
-## Common Patterns
+| Framework | Import Path | Component Usage |
+| --- | --- | --- |
+| React / Remix | `atsarul-mujahidin/react/iconname-fill` | `<Kaaba size={32} />` |
+| Vue / Nuxt | `atsarul-mujahidin/vue/iconname-fill` | `<Kaaba :size="32" />` |
+| Svelte / SvelteKit | `atsarul-mujahidin/svelte/iconname-fill` | `<Kaaba size={32} />` |
+| Angular | `atsarul-mujahidin/angular/iconname-fill` | `<kaaba [size]="32"></kaaba>` |
+| Astro | `atsarul-mujahidin/astro/iconname-fill` | `<Kaaba size={32} />` |
+| Plain HTML | CDN or local script | `<atsarul-mujahidin variant="kaaba">` |
 
-### Dynamic Icon Selection
+The same source asset can therefore be used in a design system, a static site, a SPA, or a server-rendered application.
 
-```jsx
-// React
-import * as IslamicIcons from 'islamic-icons/react';
+## Next Steps
 
-function DynamicIcon({ name, ...props }) {
-  const Icon = IslamicIcons[name];
-  if (!Icon) return null;
-  return <Icon {...props} />;
-}
-
-// Usage
-<DynamicIcon name="Kaaba" size={48} variant="fill" />
-```
-
-### Icon Grid
-
-```jsx
-import { Kaaba, Mosque, Quran, PrayerMan, Lantern } from 'islamic-icons/react';
-
-const icons = [
-  { Icon: Kaaba, label: 'Kaaba' },
-  { Icon: Mosque, label: 'Mosque' },
-  { Icon: Quran, label: 'Quran' },
-  { Icon: PrayerMan, label: 'Prayer' },
-  { Icon: Lantern, label: 'Ramadan' }
-];
-
-function IconGrid() {
-  return (
-    <div className="grid grid-cols-5 gap-4">
-      {icons.map(({ Icon, label }) => (
-        <div key={label} className="flex flex-col items-center">
-          <Icon size={48} variant="fill" />
-          <span className="text-sm mt-2">{label}</span>
-        </div>
-      ))}
-    </div>
-  );
-}
-```
-
-### Themed Icons
-
-```jsx
-import { Kaaba } from 'islamic-icons/react';
-
-function ThemedIcon() {
-  const isDark = useTheme();
-  
-  return (
-    <Kaaba 
-      size={48} 
-      variant="outline"
-      color={isDark ? '#73e0ae' : '#328460'}
-    />
-  );
-}
-```
-
-Next: [Usage & Styling](/docs/usage)
+- [Variants](./VARIANTS.md) - Understand fill, outline, and color variants
+- [Usage](./USAGE.md) - Learn component props and attributes
+- [Sources](./SOURCES.md) - Source attribution and provenance
