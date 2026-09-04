@@ -1,4 +1,4 @@
-# Islamic Icons
+# Atsarul Mujahidin
 
 A framework-agnostic Islamic SVG and WebP icon library for the modern web.
 
@@ -102,4 +102,4 @@ import { allah, quran, tasbih, qibla, muslim } from 'islamic-icons/icons/god.js'
 
 ## License
 
-MIT © Islamic Icons Community | Vyagra Nexus™
+MIT © Atsarul Mujahidin Community | Vyagra Nexus™

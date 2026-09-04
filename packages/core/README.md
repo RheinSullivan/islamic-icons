@@ -1,4 +1,4 @@
-# Islamic Icons
+# Atsarul Mujahidin
 
 Framework-agnostic Islamic SVG/WebP assets.
 

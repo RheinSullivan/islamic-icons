@@ -197,7 +197,7 @@ export type CategoryEntry = {
 );
 
 // 9. README for the published package
-const readme = `# Islamic Icons
+const readme = `# Atsarul Mujahidin
 
 A framework-agnostic Islamic SVG and WebP icon library for the modern web.
 

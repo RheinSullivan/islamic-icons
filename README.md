@@ -153,4 +153,4 @@ import { allah, quran, tasbih, qibla, muslim } from 'atsarul-mujahidin/icons/god
 
 ## License
 
-MIT © Islamic Icons Community | Vyagra Nexus™
+MIT © Atsarul Mujahidin Community | Vyagra Nexus™
