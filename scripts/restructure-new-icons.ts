@@ -1,7 +1,7 @@
 import { readdir, mkdir, copyFile } from 'node:fs/promises';
 import { join } from 'node:path';
 
-const sourceRoot = join(process.cwd(), '../..', 'Islamic Icons New');
+const sourceRoot = join(process.cwd(), '../..', 'Atsarul Mujahidin New');
 const targetRoot = join(process.cwd(), 'assets', 'icons');
 
 // Variant folders in source
@@ -36,20 +36,20 @@ for (const variant of variants) {
 			const targetCatName = categoryMap[sourceCatName] || sourceCatName;
 			const catPath = join(variantDir, sourceCatName);
 			const icons = await readdir(catPath);
-			
+
 			for (const iconFile of icons) {
 				if (!iconFile.endsWith('.svg')) continue;
 				const iconName = iconFile.replace('.svg', '');
 				const variantName = variant === 'colors' ? 'color' : variant;
-				
+
 				// Target: assets/icons/{category}/{icon-name}/{variant}.svg
 				const targetCatDir = join(targetRoot, targetCatName);
 				const targetIconDir = join(targetCatDir, iconName);
 				await mkdir(targetIconDir, { recursive: true });
-				
+
 				const sourcePath = join(catPath, iconFile);
 				const targetPath = join(targetIconDir, `${variantName}.svg`);
-				
+
 				await copyFile(sourcePath, targetPath);
 				console.log(`Copied: ${targetCatName}/${iconName}/${variantName}.svg`);
 			}

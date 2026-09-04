@@ -1,9 +1,9 @@
 {
-  "name": "@islamic-icons/astro",
+  "name": "@atsarul-mujahidin/astro",
   "version": "0.1.0",
   "type": "module",
   "peerDependencies": {
-    "islamic-icons": "^0.1.0"
+    "atsarul-mujahidin": "^0.1.0"
   },
   "files": [
     "*.js",

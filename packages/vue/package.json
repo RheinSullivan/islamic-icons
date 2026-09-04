@@ -1,9 +1,9 @@
 {
-  "name": "@islamic-icons/vue",
+  "name": "@atsarul-mujahidin/vue",
   "version": "0.1.0",
   "type": "module",
   "peerDependencies": {
-    "islamic-icons": "^0.1.0"
+    "atsarul-mujahidin": "^0.1.0"
   },
   "files": [
     "*.js",

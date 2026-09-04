@@ -1,9 +1,9 @@
 {
-  "name": "@islamic-icons/react",
+  "name": "@atsarul-mujahidin/react",
   "version": "0.1.0",
   "type": "module",
   "peerDependencies": {
-    "islamic-icons": "^0.1.0",
+    "atsarul-mujahidin": "^0.1.0",
     "react": "^18 || ^19"
   },
   "files": [

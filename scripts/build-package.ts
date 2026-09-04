@@ -48,8 +48,8 @@ for (const item of external) {
 	);
 }
 
-// 3. Copy logo
-await cp(join(assetsSource, 'logo-islamic-icons.svg'), join(root, 'logo-islamic-icons.svg'));
+// Copy logo
+await cp(join(assetsSource, 'logo-atsarul-mujahidin.svg'), join(root, 'logo-atsarul-mujahidin.svg'));
 
 // 4. Build per-category index.js files exposing URLs
 const variantSuffix = (variant) => {
@@ -206,16 +206,16 @@ The collection is organized around semantic categories and ships with three styl
 ## Installation
 
 \`\`\`bash
-bun add @rhein.sullivan/islamic-icons
-npm install @rhein.sullivan/islamic-icons
-pnpm add @rhein.sullivan/islamic-icons
-yarn add @rhein.sullivan/islamic-icons
+bun add atsarul-mujahidin
+npm install atsarul-mujahidin
+pnpm add atsarul-mujahidin
+yarn add atsarul-mujahidin
 \`\`\`
 
 For Deno, use the npm compatibility specifier:
 
 \`\`\`bash
-deno add npm:@rhein.sullivan/islamic-icons
+deno add npm:atsarul-mujahidin
 \`\`\`
 
 ## Usage
@@ -229,8 +229,8 @@ deno add npm:@rhein.sullivan/islamic-icons
 ### JavaScript / TypeScript
 
 \`\`\`ts
-import { categories, catalog, metadata } from 'islamic-icons';
-import { mosque, mosqueOutline, mosqueColor } from 'islamic-icons/icons/mosque.js';
+import { categories, catalog, metadata } from 'atsarul-mujahidin';
+import { mosque, mosqueOutline, mosqueColor } from 'atsarul-mujahidin/icons/mosque.js';
 
 console.log(categories);
 console.log(mosque);     // URL string to fill variant
@@ -241,7 +241,7 @@ console.log(mosqueColor);
 ### React / JSX
 
 \`\`\`jsx
-import { mosque } from 'islamic-icons/icons/mosque.js';
+import { mosque } from 'atsarul-mujahidin/icons/mosque.js';
 
 export function MosqueIcon() {
 	return <img src={mosque} alt="Mosque" width={24} height={24} />;
@@ -252,7 +252,7 @@ export function MosqueIcon() {
 
 \`\`\`vue
 <script setup lang="ts">
-import { mosque } from 'islamic-icons/icons/mosque.js';
+import { mosque } from 'atsarul-mujahidin/icons/mosque.js';
 </script>
 
 <template>
@@ -264,7 +264,7 @@ import { mosque } from 'islamic-icons/icons/mosque.js';
 
 \`\`\`svelte
 <script lang="ts">
-	import { mosque } from 'islamic-icons/icons/mosque.js';
+	import { mosque } from 'atsarul-mujahidin/icons/mosque.js';
 </script>
 
 <img src={mosque} alt="Mosque" width="24" height="24" />
@@ -274,7 +274,7 @@ import { mosque } from 'islamic-icons/icons/mosque.js';
 
 \`\`\`astro
 ---
-import { mosque } from 'islamic-icons/icons/mosque.js';
+import { mosque } from 'atsarul-mujahidin/icons/mosque.js';
 ---
 <img src={mosque} alt="Mosque" width="24" height="24" />
 \`\`\`
@@ -284,7 +284,7 @@ import { mosque } from 'islamic-icons/icons/mosque.js';
 Several canonical icons have aliases for convenience:
 
 \`\`\`ts
-import { allah, quran, tasbih, qibla, muslim } from 'islamic-icons/icons/god.js';
+import { allah, quran, tasbih, qibla, muslim } from 'atsarul-mujahidin/icons/god.js';
 // or any of the relevant category files
 \`\`\`
 
@@ -292,12 +292,12 @@ import { allah, quran, tasbih, qibla, muslim } from 'islamic-icons/icons/god.js'
 
 | Path | Description |
 | --- | --- |
-| \`islamic-icons\` | \`catalog\`, \`sources\`, \`metadata\`, \`categories\`, \`library\` |
-| \`islamic-icons/metadata\` | \`metadata\` (name, version, icon count, etc.) |
-| \`islamic-icons/categories\` | \`categories\` array with id, name, count |
-| \`islamic-icons/icons/<category>\` | Per-icon URL exports for \`<category>\` |
-| \`islamic-icons/icons/<category>.js\` | Same as above (CJS-friendly) |
-| \`islamic-icons/sources/<slug>.json\` | License & attribution metadata per external source |
+| \`atsarul-mujahidin\` | \`catalog\`, \`sources\`, \`metadata\`, \`categories\`, \`library\` |
+| \`atsarul-mujahidin/metadata\` | \`metadata\` (name, version, icon count, etc.) |
+| \`atsarul-mujahidin/categories\` | \`categories\` array with id, name, count |
+| \`atsarul-mujahidin/icons/<category>\` | Per-icon URL exports for \`<category>\` |
+| \`atsarul-mujahidin/icons/<category>.js\` | Same as above (CJS-friendly) |
+| \`atsarul-mujahidin/sources/<slug>.json\` | License & attribution metadata per external source |
 
 ## License
 

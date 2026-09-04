@@ -86,7 +86,7 @@ for (const item of catalog) {
 			try {
 				const svgContent = await readFile(svgPath, 'utf8');
 				const ComponentName = titleCase(item.name);
-				
+
 				// Parse SVG
 				const viewBoxMatch = svgContent.match(/viewBox="([^"]*)"/);
 				const viewBox = viewBoxMatch ? viewBoxMatch[1] : '0 0 24 24';
@@ -167,7 +167,7 @@ for (const item of catalog) {
 			try {
 				const svgContent = await readFile(svgPath, 'utf8');
 				const ComponentName = titleCase(item.name);
-				
+
 				const viewBoxMatch = svgContent.match(/viewBox="([^"]*)"/);
 				const viewBox = viewBoxMatch ? viewBoxMatch[1] : '0 0 24 24';
 				const innerMatch = svgContent.match(/<svg[^>]*>(.*?)<\/svg>/s);
@@ -249,7 +249,7 @@ for (const item of catalog) {
 			try {
 				const svgContent = await readFile(svgPath, 'utf8');
 				const ComponentName = titleCase(item.name);
-				
+
 				const viewBoxMatch = svgContent.match(/viewBox="([^"]*)"/);
 				const viewBox = viewBoxMatch ? viewBoxMatch[1] : '0 0 24 24';
 				const innerMatch = svgContent.match(/<svg[^>]*>(.*?)<\/svg>/s);
@@ -310,8 +310,8 @@ await writeFile(join(root, 'svelte', 'color', 'index.js'), svelteColorExports.jo
 
 // 6. Copy Vanilla Web Component
 await writeFile(
-	join(root, 'vanilla', 'athar.js'),
-	await readFile(join(root, 'src', 'vanilla', 'athar.js'), 'utf8'),
+	join(root, 'vanilla', 'atsarul-mujahidin.js'),
+	await readFile(join(root, 'src', 'vanilla', 'atsarul-mujahidin.js'), 'utf8'),
 	'utf8'
 );
 
