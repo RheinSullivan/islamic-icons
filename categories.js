@@ -38,7 +38,7 @@ export const categories = [
   {
     "id": "muslim-brand",
     "name": "Muslim Brand",
-    "count": 1
+    "count": 2
   },
   {
     "id": "ornamen",

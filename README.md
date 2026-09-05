@@ -39,9 +39,8 @@ console.log(mosqueOutline);
 console.log(mosqueColor);
 ```
 
-### React / Next.js
+### React / JSX
 
-**Using icon URLs:**
 ```jsx
 import { mosque } from 'atsarul-mujahidin/icons/mosque.js';
 
@@ -50,24 +49,8 @@ export function MosqueIcon() {
 }
 ```
 
-**Using React components:**
-```jsx
-import Kaaba from 'atsarul-mujahidin/react/kaaba-fill';
-import MosqueSimple from 'atsarul-mujahidin/react/mosque-simple-fill';
+### Vue
 
-export function MyApp() {
-	return (
-		<div>
-			<Kaaba size={32} colors="#10b981" />
-			<MosqueSimple size={24} />
-		</div>
-	);
-}
-```
-
-### Vue / Nuxt
-
-**Using icon URLs:**
 ```vue
 <script setup lang="ts">
 import { mosque } from 'atsarul-mujahidin/icons/mosque.js';
@@ -78,24 +61,8 @@ import { mosque } from 'atsarul-mujahidin/icons/mosque.js';
 </template>
 ```
 
-**Using Vue components:**
-```vue
-<script setup lang="ts">
-import Kaaba from 'atsarul-mujahidin/vue/kaaba-fill';
-import MosqueSimple from 'atsarul-mujahidin/vue/mosque-simple-fill';
-</script>
+### Svelte / SvelteKit
 
-<template>
-	<div>
-		<Kaaba :size="32" colors="#10b981" />
-		<MosqueSimple :size="24" />
-	</div>
-</template>
-```
-
-### Svelte / SvelteKit (Svelte 5+)
-
-**Using icon URLs:**
 ```svelte
 <script lang="ts">
 	import { mosque } from 'atsarul-mujahidin/icons/mosque.js';
@@ -103,24 +70,6 @@ import MosqueSimple from 'atsarul-mujahidin/vue/mosque-simple-fill';
 
 <img src={mosque} alt="Mosque" width="24" height="24" />
 ```
-
-**Using Svelte components:**
-```svelte
-<script lang="ts">
-	import Kaaba from 'atsarul-mujahidin/svelte/fill/Kaaba';
-	import MosqueSimple from 'atsarul-mujahidin/svelte/fill/MosqueSimple';
-</script>
-
-<Kaaba size={32} colors="#10b981" />
-<MosqueSimple size={24} />
-```
-
-**Component props:**
-- `size` - Width and height (default: 24)
-- `colors` - Icon color (default: "currentColor")
-- `strokeWidth` - Stroke width for outline icons (default: 1.5)
-- `class` - CSS class name
-- All other props are passed through to the `<svg>` element
 
 ### Astro
 

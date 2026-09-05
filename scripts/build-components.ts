@@ -91,7 +91,18 @@ for (const item of catalog) {
 				const viewBoxMatch = svgContent.match(/viewBox="([^"]*)"/);
 				const viewBox = viewBoxMatch ? viewBoxMatch[1] : '0 0 24 24';
 				const innerMatch = svgContent.match(/<svg[^>]*>(.*?)<\/svg>/s);
-				const innerContent = innerMatch ? innerMatch[1].trim() : '';
+				let innerContent = innerMatch ? innerMatch[1].trim() : '';
+
+				// Replace hardcoded black fills with currentColor ONLY for fill/outline variants
+				// DO NOT replace for color/multicolor variants - preserve original colors
+				if (variant !== 'color') {
+					innerContent = innerContent.replace(/fill="#000000"/g, 'fill="currentColor"');
+					innerContent = innerContent.replace(/fill="#000"/g, 'fill="currentColor"');
+					innerContent = innerContent.replace(/fill="black"/g, 'fill="currentColor"');
+					innerContent = innerContent.replace(/stroke="#000000"/g, 'stroke="currentColor"');
+					innerContent = innerContent.replace(/stroke="#000"/g, 'stroke="currentColor"');
+					innerContent = innerContent.replace(/stroke="black"/g, 'stroke="currentColor"');
+				}
 
 				// React component
 				const reactComponent = `import React from 'react';
@@ -171,7 +182,18 @@ for (const item of catalog) {
 				const viewBoxMatch = svgContent.match(/viewBox="([^"]*)"/);
 				const viewBox = viewBoxMatch ? viewBoxMatch[1] : '0 0 24 24';
 				const innerMatch = svgContent.match(/<svg[^>]*>(.*?)<\/svg>/s);
-				const innerContent = innerMatch ? innerMatch[1].trim() : '';
+				let innerContent = innerMatch ? innerMatch[1].trim() : '';
+
+				// Replace hardcoded black fills with currentColor ONLY for fill/outline variants
+				// DO NOT replace for color/multicolor variants - preserve original colors
+				if (variant !== 'color') {
+					innerContent = innerContent.replace(/fill="#000000"/g, 'fill="currentColor"');
+					innerContent = innerContent.replace(/fill="#000"/g, 'fill="currentColor"');
+					innerContent = innerContent.replace(/fill="black"/g, 'fill="currentColor"');
+					innerContent = innerContent.replace(/stroke="#000000"/g, 'stroke="currentColor"');
+					innerContent = innerContent.replace(/stroke="#000"/g, 'stroke="currentColor"');
+					innerContent = innerContent.replace(/stroke="black"/g, 'stroke="currentColor"');
+				}
 
 				// Vue component
 				const vueComponent = `<script>
@@ -253,7 +275,18 @@ for (const item of catalog) {
 				const viewBoxMatch = svgContent.match(/viewBox="([^"]*)"/);
 				const viewBox = viewBoxMatch ? viewBoxMatch[1] : '0 0 24 24';
 				const innerMatch = svgContent.match(/<svg[^>]*>(.*?)<\/svg>/s);
-				const innerContent = innerMatch ? innerMatch[1].trim() : '';
+				let innerContent = innerMatch ? innerMatch[1].trim() : '';
+
+				// Replace hardcoded black fills with currentColor ONLY for fill/outline variants
+				// DO NOT replace for color/multicolor variants - preserve original colors
+				if (variant !== 'color') {
+					innerContent = innerContent.replace(/fill="#000000"/g, 'fill="currentColor"');
+					innerContent = innerContent.replace(/fill="#000"/g, 'fill="currentColor"');
+					innerContent = innerContent.replace(/fill="black"/g, 'fill="currentColor"');
+					innerContent = innerContent.replace(/stroke="#000000"/g, 'stroke="currentColor"');
+					innerContent = innerContent.replace(/stroke="#000"/g, 'stroke="currentColor"');
+					innerContent = innerContent.replace(/stroke="black"/g, 'stroke="currentColor"');
+				}
 
 				// Svelte 5 component with runes mode
 				const svelteComponent = `<script>

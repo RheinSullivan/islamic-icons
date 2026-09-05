@@ -481,15 +481,30 @@ export const catalog = [
     ]
   },
   {
-    "name": "mosque-svgrepo-com(1)",
+    "name": "mosque-with-minarets",
     "category": "mosque",
-    "title": "Mosque Svgrepo Com(1)",
+    "title": "Mosque With Minarets",
     "sources": [
       {
         "id": "community",
         "label": "Community / Rhein Sullivan",
         "variants": [
           "fill"
+        ]
+      }
+    ]
+  },
+  {
+    "name": "atsarul-mujahidin",
+    "category": "muslim-brand",
+    "title": "Atsarul Mujahidin",
+    "sources": [
+      {
+        "id": "community",
+        "label": "Community / Rhein Sullivan",
+        "variants": [
+          "fill",
+          "color"
         ]
       }
     ]

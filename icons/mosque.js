@@ -21,8 +21,8 @@ export const mosqueSimple = new URL("./icons/mosque/mosque-simple/fill.svg", imp
 // Mosque Svgrepo Com
 export const mosqueSvgrepoCom = new URL("./icons/mosque/mosque-svgrepo-com/fill.svg", import.meta.url).href;
 
-// Mosque Svgrepo Com(1)
-export const mosqueSvgrepoCom1 = new URL("./icons/mosque/mosque-svgrepo-com(1)/fill.svg", import.meta.url).href;
+// Mosque With Minarets
+export const mosqueWithMinarets = new URL("./icons/mosque/mosque-with-minarets/fill.svg", import.meta.url).href;
 
 export const mosqueSilhouette = mosqueSimple;
 export const mosqueSilhouetteOutline = mosqueSimpleOutline;
