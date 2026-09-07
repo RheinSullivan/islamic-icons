@@ -1,6 +1,6 @@
 {
   "name": "atsarul-mujahidin",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "description": "Framework-agnostic Islamic SVG and WebP icon library for modern web apps. 81+ icons including mosque, prayer, Quran, Ramadan, Palestine flag, kaaba, and more. Works with React, Vue, Svelte, Angular, Astro, vanilla JavaScript/TypeScript. By Rhein Sullivan and Vyagra Nexus™.",
   "author": {
     "name": "Rhein Sullivan",
@@ -131,9 +131,21 @@
     "./svelte/*-fill": "./svelte/fill/*.svelte",
     "./svelte/*-outline": "./svelte/outline/*.svelte",
     "./svelte/*-color": "./svelte/color/*.svelte",
-    "./svelte/fill/*": "./svelte/fill/*.svelte",
-    "./svelte/outline/*": "./svelte/outline/*.svelte",
-    "./svelte/color/*": "./svelte/color/*.svelte",
+    "./svelte/fill/*": {
+      "svelte": "./svelte/fill/*.svelte",
+      "import": "./svelte/fill/*.svelte",
+      "default": "./svelte/fill/*.svelte"
+    },
+    "./svelte/outline/*": {
+      "svelte": "./svelte/outline/*.svelte",
+      "import": "./svelte/outline/*.svelte",
+      "default": "./svelte/outline/*.svelte"
+    },
+    "./svelte/color/*": {
+      "svelte": "./svelte/color/*.svelte",
+      "import": "./svelte/color/*.svelte",
+      "default": "./svelte/color/*.svelte"
+    },
     "./vanilla": "./vanilla/atsarul-mujahidin.js",
     "./icons/*": "./icons/*/index.js",
     "./icons/*.js": "./icons/*.js",
