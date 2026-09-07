@@ -1,0 +1,30 @@
+{
+  "name": "Atsarul Mujahidin",
+  "version": "0.1.0",
+  "logo": "logo-atsarul-mujahidin.svg",
+  "description": "A framework-agnostic Islamic SVG and WebP icon library for the modern web.",
+  "author": "Atsarul Mujahidin Community",
+  "runtime": "Node.js 18+ / Bun / Deno (npm: specifier)",
+  "css": "Tailwind CSS v4 (used in docs only, not required for asset consumption)",
+  "assetModel": "SVG-first, WebP when original artwork is raster",
+  "documentation": "docs/README.md",
+  "iconCount": 71,
+  "sourceArchive": "Atsarul Mujahidin New.zip",
+  "importedIconPolicy": "Numeric source filenames are normalized into semantic names and grouped by category; exact duplicates already present in the library are not re-imported.",
+  "repository": "https://github.com/RheinSullivan/islamic-icons",
+  "homepage": "https://atsarulmujahidin.rheinsullivan.web.id",
+  "license": "MIT",
+  "totalIcons": 82,
+  "totalCategories": 14,
+  "cdn": {
+    "jsdelivr": "https://cdn.jsdelivr.net/npm/atsarul-mujahidin@0.1.1",
+    "unpkg": "https://unpkg.com/atsarul-mujahidin@0.1.1"
+  },
+  "endpoints": {
+    "catalog": "/api/catalog.json",
+    "categories": "/api/categories.json",
+    "metadata": "/api/metadata.json",
+    "iconByName": "/api/icons/:name",
+    "iconSvg": "/api/icons/:name/:variant.svg"
+  }
+}

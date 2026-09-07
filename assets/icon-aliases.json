@@ -1,0 +1,112 @@
+[
+  {
+    "name": "allah",
+    "category": "god",
+    "canonical": "allah-caligraphy"
+  },
+  {
+    "name": "allah99",
+    "category": "god",
+    "canonical": "allah-caligraphy"
+  },
+  {
+    "name": "allahText",
+    "category": "god",
+    "canonical": "allah-caligraphy"
+  },
+  {
+    "name": "islam",
+    "category": "god",
+    "canonical": "allah-caligraphy"
+  },
+  {
+    "name": "tawhid",
+    "category": "god",
+    "canonical": "allah-caligraphy"
+  },
+  {
+    "name": "mosque-silhouette",
+    "category": "mosque",
+    "canonical": "mosque-simple"
+  },
+  {
+    "name": "muslim",
+    "category": "lifestyle",
+    "canonical": "muslim-man"
+  },
+  {
+    "name": "muslim2",
+    "category": "lifestyle",
+    "canonical": "muslim-man"
+  },
+  {
+    "name": "muslimah",
+    "category": "lifestyle",
+    "canonical": "muslim-woman"
+  },
+  {
+    "name": "muslimah2",
+    "category": "lifestyle",
+    "canonical": "muslim-woman"
+  },
+  {
+    "name": "kowtow",
+    "category": "prayer",
+    "canonical": "sujud-prostration"
+  },
+  {
+    "name": "prayer",
+    "category": "prayer",
+    "canonical": "salah-praying"
+  },
+  {
+    "name": "prayingPerson",
+    "category": "prayer",
+    "canonical": "muslim-praying-1"
+  },
+  {
+    "name": "qibla",
+    "category": "prayer",
+    "canonical": "qibla-direction"
+  },
+  {
+    "name": "qibla2",
+    "category": "prayer",
+    "canonical": "qibla-direction"
+  },
+  {
+    "name": "sajadah",
+    "category": "prayer",
+    "canonical": "prayer-rug"
+  },
+  {
+    "name": "tasbih",
+    "category": "prayer",
+    "canonical": "prayer-beads-tasbih"
+  },
+  {
+    "name": "tasbih2",
+    "category": "prayer",
+    "canonical": "tasbih-beads-outline"
+  },
+  {
+    "name": "tasbih3",
+    "category": "prayer",
+    "canonical": "tasbih-beads-outline"
+  },
+  {
+    "name": "mohammad",
+    "category": "prophet",
+    "canonical": "muhammad-calligraphy"
+  },
+  {
+    "name": "quran",
+    "category": "quran",
+    "canonical": "quran-book"
+  },
+  {
+    "name": "quran2",
+    "category": "quran",
+    "canonical": "quran-stand-outline"
+  }
+]

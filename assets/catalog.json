@@ -1,0 +1,1201 @@
+[
+  {
+    "name": "camel",
+    "category": "animal",
+    "title": "Camel",
+    "sources": [
+      {
+        "id": "community",
+        "label": "Community / Rhein Sullivan",
+        "variants": [
+          "fill"
+        ]
+      }
+    ]
+  },
+  {
+    "name": "camel-people",
+    "category": "animal",
+    "title": "Camel People",
+    "sources": [
+      {
+        "id": "community",
+        "label": "Community / Rhein Sullivan",
+        "variants": [
+          "fill"
+        ]
+      }
+    ]
+  },
+  {
+    "name": "cow",
+    "category": "animal",
+    "title": "Cow",
+    "sources": [
+      {
+        "id": "community",
+        "label": "Community / Rhein Sullivan",
+        "variants": [
+          "fill"
+        ]
+      }
+    ]
+  },
+  {
+    "name": "goat",
+    "category": "animal",
+    "title": "Goat",
+    "sources": [
+      {
+        "id": "community",
+        "label": "Community / Rhein Sullivan",
+        "variants": [
+          "fill"
+        ]
+      }
+    ]
+  },
+  {
+    "name": "shadaqah-hand",
+    "category": "charity",
+    "title": "Shadaqah Hand",
+    "sources": [
+      {
+        "id": "community",
+        "label": "Community / Rhein Sullivan",
+        "variants": [
+          "fill"
+        ]
+      }
+    ]
+  },
+  {
+    "name": "shadaqah-hand-outline",
+    "category": "charity",
+    "title": "Shadaqah Hand Outline",
+    "sources": [
+      {
+        "id": "community",
+        "label": "Community / Rhein Sullivan",
+        "variants": [
+          "outline"
+        ]
+      }
+    ]
+  },
+  {
+    "name": "zakat",
+    "category": "charity",
+    "title": "Zakat",
+    "sources": [
+      {
+        "id": "community",
+        "label": "Community / Rhein Sullivan",
+        "variants": [
+          "outline"
+        ]
+      }
+    ]
+  },
+  {
+    "name": "palestine-brush",
+    "category": "flags",
+    "title": "Palestine Brush",
+    "sources": [
+      {
+        "id": "community",
+        "label": "Community / Rhein Sullivan",
+        "variants": [
+          "color"
+        ]
+      }
+    ]
+  },
+  {
+    "name": "palestine-flag",
+    "category": "flags",
+    "title": "Palestine Flag",
+    "sources": [
+      {
+        "id": "community",
+        "label": "Community / Rhein Sullivan",
+        "variants": [
+          "color"
+        ]
+      }
+    ]
+  },
+  {
+    "name": "palestine-relief",
+    "category": "flags",
+    "title": "Palestine Relief",
+    "sources": [
+      {
+        "id": "community",
+        "label": "Community / Rhein Sullivan",
+        "variants": [
+          "color"
+        ]
+      }
+    ]
+  },
+  {
+    "name": "fast",
+    "category": "food",
+    "title": "Fast",
+    "sources": [
+      {
+        "id": "community",
+        "label": "Community / Rhein Sullivan",
+        "variants": [
+          "fill"
+        ]
+      }
+    ]
+  },
+  {
+    "name": "fast-outline",
+    "category": "food",
+    "title": "Fast Outline",
+    "sources": [
+      {
+        "id": "community",
+        "label": "Community / Rhein Sullivan",
+        "variants": [
+          "outline"
+        ]
+      }
+    ]
+  },
+  {
+    "name": "fasting",
+    "category": "food",
+    "title": "Fasting",
+    "sources": [
+      {
+        "id": "community",
+        "label": "Community / Rhein Sullivan",
+        "variants": [
+          "fill"
+        ]
+      }
+    ]
+  },
+  {
+    "name": "ketupat",
+    "category": "food",
+    "title": "Ketupat",
+    "sources": [
+      {
+        "id": "community",
+        "label": "Community / Rhein Sullivan",
+        "variants": [
+          "fill"
+        ]
+      }
+    ]
+  },
+  {
+    "name": "ketupat-outline",
+    "category": "food",
+    "title": "Ketupat Outline",
+    "sources": [
+      {
+        "id": "community",
+        "label": "Community / Rhein Sullivan",
+        "variants": [
+          "outline"
+        ]
+      }
+    ]
+  },
+  {
+    "name": "ketupat-side-outline",
+    "category": "food",
+    "title": "Ketupat Side Outline",
+    "sources": [
+      {
+        "id": "community",
+        "label": "Community / Rhein Sullivan",
+        "variants": [
+          "outline"
+        ]
+      }
+    ]
+  },
+  {
+    "name": "allah-caligraphy",
+    "category": "god",
+    "title": "Allah Caligraphy",
+    "sources": [
+      {
+        "id": "community",
+        "label": "Community / Rhein Sullivan",
+        "variants": [
+          "fill"
+        ]
+      }
+    ],
+    "aliases": [
+      "allah",
+      "allah99",
+      "allahText",
+      "islam",
+      "tawhid"
+    ]
+  },
+  {
+    "name": "allah-hand",
+    "category": "god",
+    "title": "Allah Hand",
+    "sources": [
+      {
+        "id": "community",
+        "label": "Community / Rhein Sullivan",
+        "variants": [
+          "fill"
+        ]
+      }
+    ]
+  },
+  {
+    "name": "allah-hand-outline",
+    "category": "god",
+    "title": "Allah Hand Outline",
+    "sources": [
+      {
+        "id": "community",
+        "label": "Community / Rhein Sullivan",
+        "variants": [
+          "outline"
+        ]
+      }
+    ]
+  },
+  {
+    "name": "man-praying",
+    "category": "lifestyle",
+    "title": "Man Praying",
+    "sources": [
+      {
+        "id": "community",
+        "label": "Community / Rhein Sullivan",
+        "variants": [
+          "fill"
+        ]
+      }
+    ]
+  },
+  {
+    "name": "muslim-family",
+    "category": "lifestyle",
+    "title": "Muslim Family",
+    "sources": [
+      {
+        "id": "community",
+        "label": "Community / Rhein Sullivan",
+        "variants": [
+          "fill"
+        ]
+      }
+    ]
+  },
+  {
+    "name": "muslim-family-child",
+    "category": "lifestyle",
+    "title": "Muslim Family Child",
+    "sources": [
+      {
+        "id": "community",
+        "label": "Community / Rhein Sullivan",
+        "variants": [
+          "fill"
+        ]
+      }
+    ]
+  },
+  {
+    "name": "muslim-man",
+    "category": "lifestyle",
+    "title": "Muslim Man",
+    "sources": [
+      {
+        "id": "community",
+        "label": "Community / Rhein Sullivan",
+        "variants": [
+          "fill"
+        ]
+      }
+    ],
+    "aliases": [
+      "muslim",
+      "muslim2"
+    ]
+  },
+  {
+    "name": "muslim-woman",
+    "category": "lifestyle",
+    "title": "Muslim Woman",
+    "sources": [
+      {
+        "id": "community",
+        "label": "Community / Rhein Sullivan",
+        "variants": [
+          "fill"
+        ]
+      }
+    ],
+    "aliases": [
+      "muslimah",
+      "muslimah2"
+    ]
+  },
+  {
+    "name": "woman-hijab",
+    "category": "lifestyle",
+    "title": "Woman Hijab",
+    "sources": [
+      {
+        "id": "community",
+        "label": "Community / Rhein Sullivan",
+        "variants": [
+          "fill"
+        ]
+      }
+    ]
+  },
+  {
+    "name": "woman-hijab-outline",
+    "category": "lifestyle",
+    "title": "Woman Hijab Outline",
+    "sources": [
+      {
+        "id": "community",
+        "label": "Community / Rhein Sullivan",
+        "variants": [
+          "outline"
+        ]
+      }
+    ]
+  },
+  {
+    "name": "kaaba",
+    "category": "mosque",
+    "title": "Kaaba",
+    "sources": [
+      {
+        "id": "community",
+        "label": "Community / Rhein Sullivan",
+        "variants": [
+          "fill"
+        ]
+      }
+    ]
+  },
+  {
+    "name": "kaaba-simple",
+    "category": "mosque",
+    "title": "Kaaba Simple",
+    "sources": [
+      {
+        "id": "community",
+        "label": "Community / Rhein Sullivan",
+        "variants": [
+          "fill"
+        ]
+      }
+    ]
+  },
+  {
+    "name": "mosque-svgrepo-com",
+    "category": "mosque",
+    "title": "Mosque",
+    "sources": [
+      {
+        "id": "community",
+        "label": "Community / Rhein Sullivan",
+        "variants": [
+          "fill"
+        ]
+      }
+    ]
+  },
+  {
+    "name": "mosque-color",
+    "category": "mosque",
+    "title": "Mosque Color",
+    "sources": [
+      {
+        "id": "community",
+        "label": "Community / Rhein Sullivan",
+        "variants": [
+          "color"
+        ]
+      }
+    ]
+  },
+  {
+    "name": "mosque-dome",
+    "category": "mosque",
+    "title": "Mosque Dome",
+    "sources": [
+      {
+        "id": "community",
+        "label": "Community / Rhein Sullivan",
+        "variants": [
+          "fill"
+        ]
+      }
+    ]
+  },
+  {
+    "name": "mosque-dome-simple",
+    "category": "mosque",
+    "title": "Mosque Dome Simple",
+    "sources": [
+      {
+        "id": "community",
+        "label": "Community / Rhein Sullivan",
+        "variants": [
+          "fill"
+        ]
+      }
+    ]
+  },
+  {
+    "name": "mosque-simple",
+    "category": "mosque",
+    "title": "Mosque Simple",
+    "sources": [
+      {
+        "id": "community",
+        "label": "Community / Rhein Sullivan",
+        "variants": [
+          "fill"
+        ]
+      }
+    ],
+    "aliases": [
+      "mosque-silhouette"
+    ]
+  },
+  {
+    "name": "mosque-with-minarets",
+    "category": "mosque",
+    "title": "Mosque With Minarets",
+    "sources": [
+      {
+        "id": "community",
+        "label": "Community / Rhein Sullivan",
+        "variants": [
+          "fill"
+        ]
+      }
+    ]
+  },
+  {
+    "name": "atsarul-mujahidin",
+    "category": "muslim-brand",
+    "title": "Atsarul Mujahidin",
+    "sources": [
+      {
+        "id": "community",
+        "label": "Community / Rhein Sullivan",
+        "variants": [
+          "fill",
+          "color"
+        ]
+      }
+    ]
+  },
+  {
+    "name": "islamic-icon-logo",
+    "category": "muslim-brand",
+    "title": "Islamic Icon Logo",
+    "sources": [
+      {
+        "id": "community",
+        "label": "Community / Rhein Sullivan",
+        "variants": [
+          "fill"
+        ]
+      }
+    ]
+  },
+  {
+    "name": "crescent-star-frame",
+    "category": "ornamen",
+    "title": "Crescent Star Frame",
+    "sources": [
+      {
+        "id": "community",
+        "label": "Community / Rhein Sullivan",
+        "variants": [
+          "fill"
+        ]
+      }
+    ]
+  },
+  {
+    "name": "crescent-star-frame-outline",
+    "category": "ornamen",
+    "title": "Crescent Star Frame Outline",
+    "sources": [
+      {
+        "id": "community",
+        "label": "Community / Rhein Sullivan",
+        "variants": [
+          "outline"
+        ]
+      }
+    ]
+  },
+  {
+    "name": "crescent-star-outline",
+    "category": "ornamen",
+    "title": "Crescent Star Outline",
+    "sources": [
+      {
+        "id": "community",
+        "label": "Community / Rhein Sullivan",
+        "variants": [
+          "outline"
+        ]
+      }
+    ]
+  },
+  {
+    "name": "islamic-crescent-with-small-star-svgrepo-com",
+    "category": "ornamen",
+    "title": "Islamic Crescent With Small Star",
+    "sources": [
+      {
+        "id": "community",
+        "label": "Community / Rhein Sullivan",
+        "variants": [
+          "fill"
+        ]
+      }
+    ]
+  },
+  {
+    "name": "lantern-outline",
+    "category": "ornamen",
+    "title": "Lantern Outline",
+    "sources": [
+      {
+        "id": "community",
+        "label": "Community / Rhein Sullivan",
+        "variants": [
+          "outline"
+        ]
+      }
+    ]
+  },
+  {
+    "name": "moon-star-outline",
+    "category": "ornamen",
+    "title": "Moon Star Outline",
+    "sources": [
+      {
+        "id": "community",
+        "label": "Community / Rhein Sullivan",
+        "variants": [
+          "outline"
+        ]
+      }
+    ]
+  },
+  {
+    "name": "moon-start",
+    "category": "ornamen",
+    "title": "Moon Start",
+    "sources": [
+      {
+        "id": "community",
+        "label": "Community / Rhein Sullivan",
+        "variants": [
+          "fill"
+        ]
+      }
+    ]
+  },
+  {
+    "name": "mosque-maps",
+    "category": "ornamen",
+    "title": "Mosque Maps",
+    "sources": [
+      {
+        "id": "community",
+        "label": "Community / Rhein Sullivan",
+        "variants": [
+          "fill"
+        ]
+      }
+    ]
+  },
+  {
+    "name": "islamic-pattern-1",
+    "category": "patterns",
+    "title": "Islamic Pattern 1",
+    "sources": [
+      {
+        "id": "community",
+        "label": "Community / Rhein Sullivan",
+        "variants": [
+          "outline"
+        ]
+      }
+    ]
+  },
+  {
+    "name": "islamic-pattern-2",
+    "category": "patterns",
+    "title": "Islamic Pattern 2",
+    "sources": [
+      {
+        "id": "community",
+        "label": "Community / Rhein Sullivan",
+        "variants": [
+          "fill"
+        ]
+      }
+    ]
+  },
+  {
+    "name": "islamic-pattern-3",
+    "category": "patterns",
+    "title": "Islamic Pattern 3",
+    "sources": [
+      {
+        "id": "community",
+        "label": "Community / Rhein Sullivan",
+        "variants": [
+          "outline"
+        ]
+      }
+    ]
+  },
+  {
+    "name": "islamic-pattern-4",
+    "category": "patterns",
+    "title": "Islamic Pattern 4",
+    "sources": [
+      {
+        "id": "community",
+        "label": "Community / Rhein Sullivan",
+        "variants": [
+          "outline"
+        ]
+      }
+    ]
+  },
+  {
+    "name": "islamic-pattern-5",
+    "category": "patterns",
+    "title": "Islamic Pattern 5",
+    "sources": [
+      {
+        "id": "community",
+        "label": "Community / Rhein Sullivan",
+        "variants": [
+          "outline"
+        ]
+      }
+    ]
+  },
+  {
+    "name": "islamic-pattern-6",
+    "category": "patterns",
+    "title": "Islamic Pattern 6",
+    "sources": [
+      {
+        "id": "community",
+        "label": "Community / Rhein Sullivan",
+        "variants": [
+          "outline"
+        ]
+      }
+    ]
+  },
+  {
+    "name": "islamic-pattern-7",
+    "category": "patterns",
+    "title": "Islamic Pattern 7",
+    "sources": [
+      {
+        "id": "community",
+        "label": "Community / Rhein Sullivan",
+        "variants": [
+          "outline"
+        ]
+      }
+    ]
+  },
+  {
+    "name": "islamic-pattern-color-1",
+    "category": "patterns",
+    "title": "Islamic Pattern Color 1",
+    "sources": [
+      {
+        "id": "community",
+        "label": "Community / Rhein Sullivan",
+        "variants": [
+          "color"
+        ]
+      }
+    ]
+  },
+  {
+    "name": "islamic-pattern-color-2",
+    "category": "patterns",
+    "title": "Islamic Pattern Color 2",
+    "sources": [
+      {
+        "id": "community",
+        "label": "Community / Rhein Sullivan",
+        "variants": [
+          "color"
+        ]
+      }
+    ]
+  },
+  {
+    "name": "adhan-call",
+    "category": "prayer",
+    "title": "Adhan Call",
+    "sources": [
+      {
+        "id": "community",
+        "label": "Community / Rhein Sullivan",
+        "variants": [
+          "fill"
+        ]
+      }
+    ]
+  },
+  {
+    "name": "dua-hands",
+    "category": "prayer",
+    "title": "Dua Hands",
+    "sources": [
+      {
+        "id": "community",
+        "label": "Community / Rhein Sullivan",
+        "variants": [
+          "fill"
+        ]
+      }
+    ]
+  },
+  {
+    "name": "muslim-prayer-svgrepo-com",
+    "category": "prayer",
+    "title": "Muslim Prayer",
+    "sources": [
+      {
+        "id": "community",
+        "label": "Community / Rhein Sullivan",
+        "variants": [
+          "fill"
+        ]
+      }
+    ]
+  },
+  {
+    "name": "muslim-praying-1",
+    "category": "prayer",
+    "title": "Muslim Praying 1",
+    "sources": [
+      {
+        "id": "community",
+        "label": "Community / Rhein Sullivan",
+        "variants": [
+          "fill"
+        ]
+      }
+    ],
+    "aliases": [
+      "prayingPerson"
+    ]
+  },
+  {
+    "name": "muslim-praying-2",
+    "category": "prayer",
+    "title": "Muslim Praying 2",
+    "sources": [
+      {
+        "id": "community",
+        "label": "Community / Rhein Sullivan",
+        "variants": [
+          "fill"
+        ]
+      }
+    ]
+  },
+  {
+    "name": "prayer-beads-outline",
+    "category": "prayer",
+    "title": "Prayer Beads Outline",
+    "sources": [
+      {
+        "id": "community",
+        "label": "Community / Rhein Sullivan",
+        "variants": [
+          "outline"
+        ]
+      }
+    ]
+  },
+  {
+    "name": "prayer-beads-tasbih",
+    "category": "prayer",
+    "title": "Prayer Beads Tasbih",
+    "sources": [
+      {
+        "id": "community",
+        "label": "Community / Rhein Sullivan",
+        "variants": [
+          "fill"
+        ]
+      }
+    ],
+    "aliases": [
+      "tasbih"
+    ]
+  },
+  {
+    "name": "prayer-mat",
+    "category": "prayer",
+    "title": "Prayer Mat",
+    "sources": [
+      {
+        "id": "community",
+        "label": "Community / Rhein Sullivan",
+        "variants": [
+          "fill"
+        ]
+      }
+    ]
+  },
+  {
+    "name": "prayer-position",
+    "category": "prayer",
+    "title": "Prayer Position",
+    "sources": [
+      {
+        "id": "community",
+        "label": "Community / Rhein Sullivan",
+        "variants": [
+          "fill"
+        ]
+      }
+    ]
+  },
+  {
+    "name": "prayer-rug",
+    "category": "prayer",
+    "title": "Prayer Rug",
+    "sources": [
+      {
+        "id": "community",
+        "label": "Community / Rhein Sullivan",
+        "variants": [
+          "fill"
+        ]
+      }
+    ],
+    "aliases": [
+      "sajadah"
+    ]
+  },
+  {
+    "name": "prayer-time",
+    "category": "prayer",
+    "title": "Prayer Time",
+    "sources": [
+      {
+        "id": "community",
+        "label": "Community / Rhein Sullivan",
+        "variants": [
+          "fill"
+        ]
+      }
+    ]
+  },
+  {
+    "name": "qibla-direction",
+    "category": "prayer",
+    "title": "Qibla Direction",
+    "sources": [
+      {
+        "id": "community",
+        "label": "Community / Rhein Sullivan",
+        "variants": [
+          "fill"
+        ]
+      }
+    ],
+    "aliases": [
+      "qibla",
+      "qibla2"
+    ]
+  },
+  {
+    "name": "quran-holder-outline",
+    "category": "prayer",
+    "title": "Quran Holder Outline",
+    "sources": [
+      {
+        "id": "community",
+        "label": "Community / Rhein Sullivan",
+        "variants": [
+          "outline"
+        ]
+      }
+    ]
+  },
+  {
+    "name": "quran-stand",
+    "category": "prayer",
+    "title": "Quran Stand",
+    "sources": [
+      {
+        "id": "community",
+        "label": "Community / Rhein Sullivan",
+        "variants": [
+          "fill"
+        ]
+      }
+    ]
+  },
+  {
+    "name": "ruku-bowing",
+    "category": "prayer",
+    "title": "Ruku Bowing",
+    "sources": [
+      {
+        "id": "community",
+        "label": "Community / Rhein Sullivan",
+        "variants": [
+          "fill"
+        ]
+      }
+    ]
+  },
+  {
+    "name": "sajadah-prayer-mat",
+    "category": "prayer",
+    "title": "Sajadah Prayer Mat",
+    "sources": [
+      {
+        "id": "community",
+        "label": "Community / Rhein Sullivan",
+        "variants": [
+          "fill"
+        ]
+      }
+    ]
+  },
+  {
+    "name": "salah-praying",
+    "category": "prayer",
+    "title": "Salah Praying",
+    "sources": [
+      {
+        "id": "community",
+        "label": "Community / Rhein Sullivan",
+        "variants": [
+          "fill"
+        ]
+      }
+    ],
+    "aliases": [
+      "prayer"
+    ]
+  },
+  {
+    "name": "sujud-prostration",
+    "category": "prayer",
+    "title": "Sujud Prostration",
+    "sources": [
+      {
+        "id": "community",
+        "label": "Community / Rhein Sullivan",
+        "variants": [
+          "fill"
+        ]
+      }
+    ],
+    "aliases": [
+      "kowtow"
+    ]
+  },
+  {
+    "name": "takbir-hands",
+    "category": "prayer",
+    "title": "Takbir Hands",
+    "sources": [
+      {
+        "id": "community",
+        "label": "Community / Rhein Sullivan",
+        "variants": [
+          "fill"
+        ]
+      }
+    ]
+  },
+  {
+    "name": "tasbih-beads-outline",
+    "category": "prayer",
+    "title": "Tasbih Beads Outline",
+    "sources": [
+      {
+        "id": "community",
+        "label": "Community / Rhein Sullivan",
+        "variants": [
+          "outline"
+        ]
+      }
+    ],
+    "aliases": [
+      "tasbih2",
+      "tasbih3"
+    ]
+  },
+  {
+    "name": "wudhu-ablution",
+    "category": "prayer",
+    "title": "Wudhu Ablution",
+    "sources": [
+      {
+        "id": "community",
+        "label": "Community / Rhein Sullivan",
+        "variants": [
+          "fill"
+        ]
+      }
+    ]
+  },
+  {
+    "name": "muhammad-calligraphy",
+    "category": "prophet",
+    "title": "Muhammad Calligraphy",
+    "sources": [
+      {
+        "id": "community",
+        "label": "Community / Rhein Sullivan",
+        "variants": [
+          "fill"
+        ]
+      }
+    ],
+    "aliases": [
+      "mohammad"
+    ]
+  },
+  {
+    "name": "arabic-calligraphy-1",
+    "category": "qalligraphy",
+    "title": "Arabic Calligraphy 1",
+    "sources": [
+      {
+        "id": "community",
+        "label": "Community / Rhein Sullivan",
+        "variants": [
+          "fill"
+        ]
+      }
+    ]
+  },
+  {
+    "name": "arabic-calligraphy-2",
+    "category": "qalligraphy",
+    "title": "Arabic Calligraphy 2",
+    "sources": [
+      {
+        "id": "community",
+        "label": "Community / Rhein Sullivan",
+        "variants": [
+          "fill"
+        ]
+      }
+    ]
+  },
+  {
+    "name": "basmallah",
+    "category": "qalligraphy",
+    "title": "Basmallah",
+    "sources": [
+      {
+        "id": "community",
+        "label": "Community / Rhein Sullivan",
+        "variants": [
+          "fill"
+        ]
+      }
+    ]
+  },
+  {
+    "name": "bismillah-calligraphy",
+    "category": "qalligraphy",
+    "title": "Bismillah Calligraphy",
+    "sources": [
+      {
+        "id": "community",
+        "label": "Community / Rhein Sullivan",
+        "variants": [
+          "fill"
+        ]
+      }
+    ]
+  },
+  {
+    "name": "quran-svgrepo-com",
+    "category": "quran",
+    "title": "Quran",
+    "sources": [
+      {
+        "id": "community",
+        "label": "Community / Rhein Sullivan",
+        "variants": [
+          "fill"
+        ]
+      }
+    ]
+  },
+  {
+    "name": "quran-book",
+    "category": "quran",
+    "title": "Quran Book",
+    "sources": [
+      {
+        "id": "community",
+        "label": "Community / Rhein Sullivan",
+        "variants": [
+          "fill"
+        ]
+      }
+    ],
+    "aliases": [
+      "quran"
+    ]
+  },
+  {
+    "name": "quran-stand-outline",
+    "category": "quran",
+    "title": "Quran Stand Outline",
+    "sources": [
+      {
+        "id": "community",
+        "label": "Community / Rhein Sullivan",
+        "variants": [
+          "outline"
+        ]
+      }
+    ],
+    "aliases": [
+      "quran2"
+    ]
+  }
+]

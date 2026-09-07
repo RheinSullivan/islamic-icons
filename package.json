@@ -1,0 +1,168 @@
+{
+  "name": "atsarul-mujahidin",
+  "version": "0.1.1",
+  "description": "Framework-agnostic Islamic SVG and WebP icon library for modern web apps. 81+ icons including mosque, prayer, Quran, Ramadan, Palestine flag, kaaba, and more. Works with React, Vue, Svelte, Angular, Astro, vanilla JavaScript/TypeScript. By Rhein Sullivan and Vyagra Nexus™.",
+  "author": {
+    "name": "Rhein Sullivan",
+    "email": "rheinsullivan@vyagra.dev",
+    "url": "https://github.com/RheinSullivan"
+  },
+  "contributors": [
+    {
+      "name": "Vyagra Nexus™ Team",
+      "url": "https://vyagra.dev"
+    },
+    {
+      "name": "Atsarul Mujahidin Community",
+      "url": "https://github.com/RheinSullivan/islamic-icons"
+    }
+  ],
+  "license": "MIT",
+  "type": "module",
+  "main": "./index.js",
+  "module": "./index.js",
+  "types": "./index.d.ts",
+  "sideEffects": false,
+  "keywords": [
+    "atsarul-mujahidin",
+    "islamic",
+    "icons",
+    "svg",
+    "webp",
+    "icon-library",
+    "muslim",
+    "mosque",
+    "quran",
+    "ramadan",
+    "prayer",
+    "kaaba",
+    "palestine",
+    "hajj",
+    "zakat",
+    "sadaqah",
+    "calligraphy",
+    "arabic",
+    "framework-agnostic",
+    "react",
+    "vue",
+    "svelte",
+    "angular",
+    "astro",
+    "typescript",
+    "javascript",
+    "component-library",
+    "design-system",
+    "ui",
+    "rhein-sullivan",
+    "vyagra-nexus",
+    "mujahidin"
+  ],
+  "homepage": "https://atsarulmujahidin.rheinsullivan.web.id",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/RheinSullivan/islamic-icons.git",
+    "directory": "library"
+  },
+  "bugs": {
+    "url": "https://github.com/RheinSullivan/islamic-icons/issues"
+  },
+  "files": [
+    "index.js",
+    "index.d.ts",
+    "metadata.js",
+    "metadata.d.ts",
+    "categories.js",
+    "categories.d.ts",
+    "fill",
+    "outline",
+    "color",
+    "react",
+    "vue",
+    "svelte",
+    "vanilla",
+    "icons",
+    "sources",
+    "api",
+    "README.md",
+    "LICENSE",
+    "NOTICE.md",
+    "ATTRIBUTION.md",
+    "CHANGELOG.md"
+  ],
+  "exports": {
+    ".": {
+      "types": "./index.d.ts",
+      "import": "./index.js"
+    },
+    "./metadata": {
+      "types": "./metadata.d.ts",
+      "import": "./metadata.js"
+    },
+    "./categories": {
+      "types": "./categories.d.ts",
+      "import": "./categories.js"
+    },
+    "./api": {
+      "types": "./api/index.d.ts",
+      "import": "./api/index.js"
+    },
+    "./api/*": "./api/*",
+    "./fill/*": "./fill/*.js",
+    "./outline/*": "./outline/*.js",
+    "./color/*": "./color/*.js",
+    "./react": "./react/index.js",
+    "./react/fill": "./react/fill/index.js",
+    "./react/outline": "./react/outline/index.js",
+    "./react/color": "./react/color/index.js",
+    "./react/*-fill": "./react/fill/*.jsx",
+    "./react/*-outline": "./react/outline/*.jsx",
+    "./react/*-color": "./react/color/*.jsx",
+    "./vue": "./vue/index.js",
+    "./vue/fill": "./vue/fill/index.js",
+    "./vue/outline": "./vue/outline/index.js",
+    "./vue/color": "./vue/color/index.js",
+    "./vue/*-fill": "./vue/fill/*.vue",
+    "./vue/*-outline": "./vue/outline/*.vue",
+    "./vue/*-color": "./vue/color/*.vue",
+    "./svelte": "./svelte/index.js",
+    "./svelte/fill": "./svelte/fill/index.js",
+    "./svelte/outline": "./svelte/outline/index.js",
+    "./svelte/color": "./svelte/color/index.js",
+    "./svelte/*-fill": "./svelte/fill/*.svelte",
+    "./svelte/*-outline": "./svelte/outline/*.svelte",
+    "./svelte/*-color": "./svelte/color/*.svelte",
+    "./svelte/fill/*": "./svelte/fill/*.svelte",
+    "./svelte/outline/*": "./svelte/outline/*.svelte",
+    "./svelte/color/*": "./svelte/color/*.svelte",
+    "./vanilla": "./vanilla/atsarul-mujahidin.js",
+    "./icons/*": "./icons/*/index.js",
+    "./icons/*.js": "./icons/*.js",
+    "./sources/*": "./sources/*.json",
+    "./package.json": "./package.json"
+  },
+  "publishConfig": {
+    "access": "public",
+    "registry": "https://registry.npmjs.org/"
+  },
+  "scripts": {
+    "build": "bun run icons:catalog && bun run icons:package && bun run icons:components && bun run icons:api",
+    "icons:catalog": "bun scripts/build-catalog.ts",
+    "icons:package": "bun scripts/build-package.ts",
+    "icons:components": "bun scripts/build-components.ts",
+    "icons:api": "bun scripts/generate-api.ts",
+    "icons:validate": "bun scripts/validate-icons.ts",
+    "icons:import:google": "bun scripts/import-google.ts",
+    "typecheck": "node --check index.js && node --check metadata.js && node --check categories.js && node --check api/index.js && node --check api/server.js",
+    "test": "node --test",
+    "lint": "node --check index.js && node --check metadata.js && node --check categories.js && node --check api/index.js && node scripts/validate-publish.mjs",
+    "pack": "npm pack",
+    "prepublishOnly": "bun run icons:catalog && bun run icons:package && bun run icons:components && bun run icons:api && bun run icons:validate && node scripts/validate-publish.mjs"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  },
+  "devDependencies": {
+    "@types/node": "^26.4.1"
+  },
+  "logo": "assets/logo-atsarul-mujahidin.svg"
+}

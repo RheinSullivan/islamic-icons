@@ -1,0 +1,15 @@
+{
+  "name": "@atsarul-mujahidin/vue",
+  "version": "0.1.0",
+  "type": "module",
+  "peerDependencies": {
+    "atsarul-mujahidin": "^0.1.0"
+  },
+  "files": [
+    "*.js",
+    "*.ts",
+    "*.svelte",
+    "*.vue",
+    "README.md"
+  ]
+}

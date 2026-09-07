@@ -1,0 +1,182 @@
+[
+  {
+    "id": "animal",
+    "name": "Animal",
+    "count": 4,
+    "icons": [
+      "camel",
+      "camel-people",
+      "cow",
+      "goat"
+    ]
+  },
+  {
+    "id": "charity",
+    "name": "Charity",
+    "count": 3,
+    "icons": [
+      "shadaqah-hand",
+      "shadaqah-hand-outline",
+      "zakat"
+    ]
+  },
+  {
+    "id": "flags",
+    "name": "Flags",
+    "count": 3,
+    "icons": [
+      "palestine-brush",
+      "palestine-flag",
+      "palestine-relief"
+    ]
+  },
+  {
+    "id": "food",
+    "name": "Food",
+    "count": 6,
+    "icons": [
+      "fast",
+      "fast-outline",
+      "fasting",
+      "ketupat",
+      "ketupat-outline",
+      "ketupat-side-outline"
+    ]
+  },
+  {
+    "id": "god",
+    "name": "God",
+    "count": 3,
+    "icons": [
+      "allah-caligraphy",
+      "allah-hand",
+      "allah-hand-outline"
+    ]
+  },
+  {
+    "id": "lifestyle",
+    "name": "Lifestyle",
+    "count": 7,
+    "icons": [
+      "man-praying",
+      "muslim-family",
+      "muslim-family-child",
+      "muslim-man",
+      "muslim-woman",
+      "woman-hijab",
+      "woman-hijab-outline"
+    ]
+  },
+  {
+    "id": "mosque",
+    "name": "Mosque",
+    "count": 8,
+    "icons": [
+      "kaaba",
+      "kaaba-simple",
+      "mosque-svgrepo-com",
+      "mosque-color",
+      "mosque-dome",
+      "mosque-dome-simple",
+      "mosque-simple",
+      "mosque-with-minarets"
+    ]
+  },
+  {
+    "id": "muslim-brand",
+    "name": "Muslim Brand",
+    "count": 2,
+    "icons": [
+      "atsarul-mujahidin",
+      "islamic-icon-logo"
+    ]
+  },
+  {
+    "id": "ornamen",
+    "name": "Ornamen",
+    "count": 8,
+    "icons": [
+      "crescent-star-frame",
+      "crescent-star-frame-outline",
+      "crescent-star-outline",
+      "islamic-crescent-with-small-star-svgrepo-com",
+      "lantern-outline",
+      "moon-star-outline",
+      "moon-start",
+      "mosque-maps"
+    ]
+  },
+  {
+    "id": "patterns",
+    "name": "Patterns",
+    "count": 9,
+    "icons": [
+      "islamic-pattern-1",
+      "islamic-pattern-2",
+      "islamic-pattern-3",
+      "islamic-pattern-4",
+      "islamic-pattern-5",
+      "islamic-pattern-6",
+      "islamic-pattern-7",
+      "islamic-pattern-color-1",
+      "islamic-pattern-color-2"
+    ]
+  },
+  {
+    "id": "prayer",
+    "name": "Prayer",
+    "count": 21,
+    "icons": [
+      "adhan-call",
+      "dua-hands",
+      "muslim-prayer-svgrepo-com",
+      "muslim-praying-1",
+      "muslim-praying-2",
+      "prayer-beads-outline",
+      "prayer-beads-tasbih",
+      "prayer-mat",
+      "prayer-position",
+      "prayer-rug",
+      "prayer-time",
+      "qibla-direction",
+      "quran-holder-outline",
+      "quran-stand",
+      "ruku-bowing",
+      "sajadah-prayer-mat",
+      "salah-praying",
+      "sujud-prostration",
+      "takbir-hands",
+      "tasbih-beads-outline",
+      "wudhu-ablution"
+    ]
+  },
+  {
+    "id": "prophet",
+    "name": "Prophet",
+    "count": 1,
+    "icons": [
+      "muhammad-calligraphy"
+    ]
+  },
+  {
+    "id": "qalligraphy",
+    "name": "Qalligraphy",
+    "count": 4,
+    "icons": [
+      "arabic-calligraphy-1",
+      "arabic-calligraphy-2",
+      "basmallah",
+      "bismillah-calligraphy"
+    ]
+  },
+  {
+    "id": "quran",
+    "name": "Quran",
+    "count": 3,
+    "icons": [
+      "quran-svgrepo-com",
+      "quran-book",
+      "quran-stand-outline"
+    ]
+  }
+]

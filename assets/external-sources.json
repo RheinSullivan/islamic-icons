@@ -1,0 +1,45 @@
+[
+  {
+    "name": "SVG Repo - Islamic Vectors",
+    "kind": "external",
+    "discoveredVia": "Google Search",
+    "source": "https://www.svgrepo.com/vectors/islamic/",
+    "licensePolicy": "Verify the individual icon page license before importing; CC0 items are safe candidates.",
+    "examples": [
+      {"name":"Mosque Islam","url":"https://www.svgrepo.com/svg/235387/mosque-islam","license":"CC0"},
+      {"name":"Islamic Lantern","url":"https://www.svgrepo.com/svg/123343/islamic-lantern","license":"CC0"},
+      {"name":"Qibla Compass","url":"https://www.svgrepo.com/svg/80653/qibla-compass","license":"CC0"},
+      {"name":"Quran Islam","url":"https://www.svgrepo.com/svg/317543/quran-islam","license":"CC0"},
+      {"name":"Quran Quran","url":"https://www.svgrepo.com/svg/262970/quran-quran","license":"CC0"}
+    ]
+  },
+  {
+    "name": "Google Material Icons",
+    "kind": "external",
+    "discoveredVia": "Google Fonts / official repository",
+    "source": "https://github.com/google/material-design-icons",
+    "license": "Apache-2.0",
+    "licensePolicy": "Official Google Material Icons are Apache-2.0. Import only the exact SVG from the official repository and retain provenance.",
+    "examples": [
+      {"name":"Mosque","url":"https://github.com/google/material-design-icons/blob/master/src/maps/mosque/materialicons/24px.svg","license":"Apache-2.0"}
+    ]
+  },
+  {
+    "name": "Mary Akveo",
+    "kind": "external",
+    "discoveredVia": "Google Search",
+    "source": "https://maryakveo.com/",
+    "license": "Public Domain",
+    "licensePolicy": "Public-domain source; retain the creator and source URL in provenance metadata.",
+    "examples": [
+      {"name":"Mosque","url":"https://www.svgviewer.dev/s/501931/mosque","license":"PD"}
+    ]
+  },
+  {
+    "name": "Google Search",
+    "kind": "discovery",
+    "discoveredVia": "Google",
+    "source": "https://www.google.com/search?q=islamic+svg+icons",
+    "licensePolicy": "Search results are discovery only. Never treat Google as redistribution permission; follow each result to the original creator and license."
+  }
+]

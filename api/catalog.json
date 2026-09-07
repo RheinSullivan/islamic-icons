@@ -1,0 +1,1727 @@
+[
+  {
+    "name": "camel",
+    "title": "Camel",
+    "category": "animal",
+    "variants": [
+      "fill"
+    ],
+    "sources": [
+      {
+        "id": "community",
+        "label": "Community / Rhein Sullivan",
+        "variants": [
+          "fill"
+        ]
+      }
+    ],
+    "cdnUrls": {
+      "fill": "https://cdn.jsdelivr.net/npm/atsarul-mujahidin@0.1.1/fill/camel.js"
+    },
+    "apiEndpoint": "/api/icons/camel"
+  },
+  {
+    "name": "camel-people",
+    "title": "Camel People",
+    "category": "animal",
+    "variants": [
+      "fill"
+    ],
+    "sources": [
+      {
+        "id": "community",
+        "label": "Community / Rhein Sullivan",
+        "variants": [
+          "fill"
+        ]
+      }
+    ],
+    "cdnUrls": {
+      "fill": "https://cdn.jsdelivr.net/npm/atsarul-mujahidin@0.1.1/fill/camel-people.js"
+    },
+    "apiEndpoint": "/api/icons/camel-people"
+  },
+  {
+    "name": "cow",
+    "title": "Cow",
+    "category": "animal",
+    "variants": [
+      "fill"
+    ],
+    "sources": [
+      {
+        "id": "community",
+        "label": "Community / Rhein Sullivan",
+        "variants": [
+          "fill"
+        ]
+      }
+    ],
+    "cdnUrls": {
+      "fill": "https://cdn.jsdelivr.net/npm/atsarul-mujahidin@0.1.1/fill/cow.js"
+    },
+    "apiEndpoint": "/api/icons/cow"
+  },
+  {
+    "name": "goat",
+    "title": "Goat",
+    "category": "animal",
+    "variants": [
+      "fill"
+    ],
+    "sources": [
+      {
+        "id": "community",
+        "label": "Community / Rhein Sullivan",
+        "variants": [
+          "fill"
+        ]
+      }
+    ],
+    "cdnUrls": {
+      "fill": "https://cdn.jsdelivr.net/npm/atsarul-mujahidin@0.1.1/fill/goat.js"
+    },
+    "apiEndpoint": "/api/icons/goat"
+  },
+  {
+    "name": "shadaqah-hand",
+    "title": "Shadaqah Hand",
+    "category": "charity",
+    "variants": [
+      "fill"
+    ],
+    "sources": [
+      {
+        "id": "community",
+        "label": "Community / Rhein Sullivan",
+        "variants": [
+          "fill"
+        ]
+      }
+    ],
+    "cdnUrls": {
+      "fill": "https://cdn.jsdelivr.net/npm/atsarul-mujahidin@0.1.1/fill/shadaqah-hand.js"
+    },
+    "apiEndpoint": "/api/icons/shadaqah-hand"
+  },
+  {
+    "name": "shadaqah-hand-outline",
+    "title": "Shadaqah Hand Outline",
+    "category": "charity",
+    "variants": [
+      "outline"
+    ],
+    "sources": [
+      {
+        "id": "community",
+        "label": "Community / Rhein Sullivan",
+        "variants": [
+          "outline"
+        ]
+      }
+    ],
+    "cdnUrls": {
+      "outline": "https://cdn.jsdelivr.net/npm/atsarul-mujahidin@0.1.1/outline/shadaqah-hand-outline.js"
+    },
+    "apiEndpoint": "/api/icons/shadaqah-hand-outline"
+  },
+  {
+    "name": "zakat",
+    "title": "Zakat",
+    "category": "charity",
+    "variants": [
+      "outline"
+    ],
+    "sources": [
+      {
+        "id": "community",
+        "label": "Community / Rhein Sullivan",
+        "variants": [
+          "outline"
+        ]
+      }
+    ],
+    "cdnUrls": {
+      "outline": "https://cdn.jsdelivr.net/npm/atsarul-mujahidin@0.1.1/outline/zakat.js"
+    },
+    "apiEndpoint": "/api/icons/zakat"
+  },
+  {
+    "name": "palestine-brush",
+    "title": "Palestine Brush",
+    "category": "flags",
+    "variants": [
+      "color"
+    ],
+    "sources": [
+      {
+        "id": "community",
+        "label": "Community / Rhein Sullivan",
+        "variants": [
+          "color"
+        ]
+      }
+    ],
+    "cdnUrls": {
+      "color": "https://cdn.jsdelivr.net/npm/atsarul-mujahidin@0.1.1/color/palestine-brush.js"
+    },
+    "apiEndpoint": "/api/icons/palestine-brush"
+  },
+  {
+    "name": "palestine-flag",
+    "title": "Palestine Flag",
+    "category": "flags",
+    "variants": [
+      "color"
+    ],
+    "sources": [
+      {
+        "id": "community",
+        "label": "Community / Rhein Sullivan",
+        "variants": [
+          "color"
+        ]
+      }
+    ],
+    "cdnUrls": {
+      "color": "https://cdn.jsdelivr.net/npm/atsarul-mujahidin@0.1.1/color/palestine-flag.js"
+    },
+    "apiEndpoint": "/api/icons/palestine-flag"
+  },
+  {
+    "name": "palestine-relief",
+    "title": "Palestine Relief",
+    "category": "flags",
+    "variants": [
+      "color"
+    ],
+    "sources": [
+      {
+        "id": "community",
+        "label": "Community / Rhein Sullivan",
+        "variants": [
+          "color"
+        ]
+      }
+    ],
+    "cdnUrls": {
+      "color": "https://cdn.jsdelivr.net/npm/atsarul-mujahidin@0.1.1/color/palestine-relief.js"
+    },
+    "apiEndpoint": "/api/icons/palestine-relief"
+  },
+  {
+    "name": "fast",
+    "title": "Fast",
+    "category": "food",
+    "variants": [
+      "fill"
+    ],
+    "sources": [
+      {
+        "id": "community",
+        "label": "Community / Rhein Sullivan",
+        "variants": [
+          "fill"
+        ]
+      }
+    ],
+    "cdnUrls": {
+      "fill": "https://cdn.jsdelivr.net/npm/atsarul-mujahidin@0.1.1/fill/fast.js"
+    },
+    "apiEndpoint": "/api/icons/fast"
+  },
+  {
+    "name": "fast-outline",
+    "title": "Fast Outline",
+    "category": "food",
+    "variants": [
+      "outline"
+    ],
+    "sources": [
+      {
+        "id": "community",
+        "label": "Community / Rhein Sullivan",
+        "variants": [
+          "outline"
+        ]
+      }
+    ],
+    "cdnUrls": {
+      "outline": "https://cdn.jsdelivr.net/npm/atsarul-mujahidin@0.1.1/outline/fast-outline.js"
+    },
+    "apiEndpoint": "/api/icons/fast-outline"
+  },
+  {
+    "name": "fasting",
+    "title": "Fasting",
+    "category": "food",
+    "variants": [
+      "fill"
+    ],
+    "sources": [
+      {
+        "id": "community",
+        "label": "Community / Rhein Sullivan",
+        "variants": [
+          "fill"
+        ]
+      }
+    ],
+    "cdnUrls": {
+      "fill": "https://cdn.jsdelivr.net/npm/atsarul-mujahidin@0.1.1/fill/fasting.js"
+    },
+    "apiEndpoint": "/api/icons/fasting"
+  },
+  {
+    "name": "ketupat",
+    "title": "Ketupat",
+    "category": "food",
+    "variants": [
+      "fill"
+    ],
+    "sources": [
+      {
+        "id": "community",
+        "label": "Community / Rhein Sullivan",
+        "variants": [
+          "fill"
+        ]
+      }
+    ],
+    "cdnUrls": {
+      "fill": "https://cdn.jsdelivr.net/npm/atsarul-mujahidin@0.1.1/fill/ketupat.js"
+    },
+    "apiEndpoint": "/api/icons/ketupat"
+  },
+  {
+    "name": "ketupat-outline",
+    "title": "Ketupat Outline",
+    "category": "food",
+    "variants": [
+      "outline"
+    ],
+    "sources": [
+      {
+        "id": "community",
+        "label": "Community / Rhein Sullivan",
+        "variants": [
+          "outline"
+        ]
+      }
+    ],
+    "cdnUrls": {
+      "outline": "https://cdn.jsdelivr.net/npm/atsarul-mujahidin@0.1.1/outline/ketupat-outline.js"
+    },
+    "apiEndpoint": "/api/icons/ketupat-outline"
+  },
+  {
+    "name": "ketupat-side-outline",
+    "title": "Ketupat Side Outline",
+    "category": "food",
+    "variants": [
+      "outline"
+    ],
+    "sources": [
+      {
+        "id": "community",
+        "label": "Community / Rhein Sullivan",
+        "variants": [
+          "outline"
+        ]
+      }
+    ],
+    "cdnUrls": {
+      "outline": "https://cdn.jsdelivr.net/npm/atsarul-mujahidin@0.1.1/outline/ketupat-side-outline.js"
+    },
+    "apiEndpoint": "/api/icons/ketupat-side-outline"
+  },
+  {
+    "name": "allah-caligraphy",
+    "title": "Allah Caligraphy",
+    "category": "god",
+    "variants": [
+      "fill"
+    ],
+    "sources": [
+      {
+        "id": "community",
+        "label": "Community / Rhein Sullivan",
+        "variants": [
+          "fill"
+        ]
+      }
+    ],
+    "cdnUrls": {
+      "fill": "https://cdn.jsdelivr.net/npm/atsarul-mujahidin@0.1.1/fill/allah-caligraphy.js"
+    },
+    "apiEndpoint": "/api/icons/allah-caligraphy"
+  },
+  {
+    "name": "allah-hand",
+    "title": "Allah Hand",
+    "category": "god",
+    "variants": [
+      "fill"
+    ],
+    "sources": [
+      {
+        "id": "community",
+        "label": "Community / Rhein Sullivan",
+        "variants": [
+          "fill"
+        ]
+      }
+    ],
+    "cdnUrls": {
+      "fill": "https://cdn.jsdelivr.net/npm/atsarul-mujahidin@0.1.1/fill/allah-hand.js"
+    },
+    "apiEndpoint": "/api/icons/allah-hand"
+  },
+  {
+    "name": "allah-hand-outline",
+    "title": "Allah Hand Outline",
+    "category": "god",
+    "variants": [
+      "outline"
+    ],
+    "sources": [
+      {
+        "id": "community",
+        "label": "Community / Rhein Sullivan",
+        "variants": [
+          "outline"
+        ]
+      }
+    ],
+    "cdnUrls": {
+      "outline": "https://cdn.jsdelivr.net/npm/atsarul-mujahidin@0.1.1/outline/allah-hand-outline.js"
+    },
+    "apiEndpoint": "/api/icons/allah-hand-outline"
+  },
+  {
+    "name": "man-praying",
+    "title": "Man Praying",
+    "category": "lifestyle",
+    "variants": [
+      "fill"
+    ],
+    "sources": [
+      {
+        "id": "community",
+        "label": "Community / Rhein Sullivan",
+        "variants": [
+          "fill"
+        ]
+      }
+    ],
+    "cdnUrls": {
+      "fill": "https://cdn.jsdelivr.net/npm/atsarul-mujahidin@0.1.1/fill/man-praying.js"
+    },
+    "apiEndpoint": "/api/icons/man-praying"
+  },
+  {
+    "name": "muslim-family",
+    "title": "Muslim Family",
+    "category": "lifestyle",
+    "variants": [
+      "fill"
+    ],
+    "sources": [
+      {
+        "id": "community",
+        "label": "Community / Rhein Sullivan",
+        "variants": [
+          "fill"
+        ]
+      }
+    ],
+    "cdnUrls": {
+      "fill": "https://cdn.jsdelivr.net/npm/atsarul-mujahidin@0.1.1/fill/muslim-family.js"
+    },
+    "apiEndpoint": "/api/icons/muslim-family"
+  },
+  {
+    "name": "muslim-family-child",
+    "title": "Muslim Family Child",
+    "category": "lifestyle",
+    "variants": [
+      "fill"
+    ],
+    "sources": [
+      {
+        "id": "community",
+        "label": "Community / Rhein Sullivan",
+        "variants": [
+          "fill"
+        ]
+      }
+    ],
+    "cdnUrls": {
+      "fill": "https://cdn.jsdelivr.net/npm/atsarul-mujahidin@0.1.1/fill/muslim-family-child.js"
+    },
+    "apiEndpoint": "/api/icons/muslim-family-child"
+  },
+  {
+    "name": "muslim-man",
+    "title": "Muslim Man",
+    "category": "lifestyle",
+    "variants": [
+      "fill"
+    ],
+    "sources": [
+      {
+        "id": "community",
+        "label": "Community / Rhein Sullivan",
+        "variants": [
+          "fill"
+        ]
+      }
+    ],
+    "cdnUrls": {
+      "fill": "https://cdn.jsdelivr.net/npm/atsarul-mujahidin@0.1.1/fill/muslim-man.js"
+    },
+    "apiEndpoint": "/api/icons/muslim-man"
+  },
+  {
+    "name": "muslim-woman",
+    "title": "Muslim Woman",
+    "category": "lifestyle",
+    "variants": [
+      "fill"
+    ],
+    "sources": [
+      {
+        "id": "community",
+        "label": "Community / Rhein Sullivan",
+        "variants": [
+          "fill"
+        ]
+      }
+    ],
+    "cdnUrls": {
+      "fill": "https://cdn.jsdelivr.net/npm/atsarul-mujahidin@0.1.1/fill/muslim-woman.js"
+    },
+    "apiEndpoint": "/api/icons/muslim-woman"
+  },
+  {
+    "name": "woman-hijab",
+    "title": "Woman Hijab",
+    "category": "lifestyle",
+    "variants": [
+      "fill"
+    ],
+    "sources": [
+      {
+        "id": "community",
+        "label": "Community / Rhein Sullivan",
+        "variants": [
+          "fill"
+        ]
+      }
+    ],
+    "cdnUrls": {
+      "fill": "https://cdn.jsdelivr.net/npm/atsarul-mujahidin@0.1.1/fill/woman-hijab.js"
+    },
+    "apiEndpoint": "/api/icons/woman-hijab"
+  },
+  {
+    "name": "woman-hijab-outline",
+    "title": "Woman Hijab Outline",
+    "category": "lifestyle",
+    "variants": [
+      "outline"
+    ],
+    "sources": [
+      {
+        "id": "community",
+        "label": "Community / Rhein Sullivan",
+        "variants": [
+          "outline"
+        ]
+      }
+    ],
+    "cdnUrls": {
+      "outline": "https://cdn.jsdelivr.net/npm/atsarul-mujahidin@0.1.1/outline/woman-hijab-outline.js"
+    },
+    "apiEndpoint": "/api/icons/woman-hijab-outline"
+  },
+  {
+    "name": "kaaba",
+    "title": "Kaaba",
+    "category": "mosque",
+    "variants": [
+      "fill"
+    ],
+    "sources": [
+      {
+        "id": "community",
+        "label": "Community / Rhein Sullivan",
+        "variants": [
+          "fill"
+        ]
+      }
+    ],
+    "cdnUrls": {
+      "fill": "https://cdn.jsdelivr.net/npm/atsarul-mujahidin@0.1.1/fill/kaaba.js"
+    },
+    "apiEndpoint": "/api/icons/kaaba"
+  },
+  {
+    "name": "kaaba-simple",
+    "title": "Kaaba Simple",
+    "category": "mosque",
+    "variants": [
+      "fill"
+    ],
+    "sources": [
+      {
+        "id": "community",
+        "label": "Community / Rhein Sullivan",
+        "variants": [
+          "fill"
+        ]
+      }
+    ],
+    "cdnUrls": {
+      "fill": "https://cdn.jsdelivr.net/npm/atsarul-mujahidin@0.1.1/fill/kaaba-simple.js"
+    },
+    "apiEndpoint": "/api/icons/kaaba-simple"
+  },
+  {
+    "name": "mosque-svgrepo-com",
+    "title": "Mosque",
+    "category": "mosque",
+    "variants": [
+      "fill"
+    ],
+    "sources": [
+      {
+        "id": "community",
+        "label": "Community / Rhein Sullivan",
+        "variants": [
+          "fill"
+        ]
+      }
+    ],
+    "cdnUrls": {
+      "fill": "https://cdn.jsdelivr.net/npm/atsarul-mujahidin@0.1.1/fill/mosque-svgrepo-com.js"
+    },
+    "apiEndpoint": "/api/icons/mosque-svgrepo-com"
+  },
+  {
+    "name": "mosque-color",
+    "title": "Mosque Color",
+    "category": "mosque",
+    "variants": [
+      "color"
+    ],
+    "sources": [
+      {
+        "id": "community",
+        "label": "Community / Rhein Sullivan",
+        "variants": [
+          "color"
+        ]
+      }
+    ],
+    "cdnUrls": {
+      "color": "https://cdn.jsdelivr.net/npm/atsarul-mujahidin@0.1.1/color/mosque-color.js"
+    },
+    "apiEndpoint": "/api/icons/mosque-color"
+  },
+  {
+    "name": "mosque-dome",
+    "title": "Mosque Dome",
+    "category": "mosque",
+    "variants": [
+      "fill"
+    ],
+    "sources": [
+      {
+        "id": "community",
+        "label": "Community / Rhein Sullivan",
+        "variants": [
+          "fill"
+        ]
+      }
+    ],
+    "cdnUrls": {
+      "fill": "https://cdn.jsdelivr.net/npm/atsarul-mujahidin@0.1.1/fill/mosque-dome.js"
+    },
+    "apiEndpoint": "/api/icons/mosque-dome"
+  },
+  {
+    "name": "mosque-dome-simple",
+    "title": "Mosque Dome Simple",
+    "category": "mosque",
+    "variants": [
+      "fill"
+    ],
+    "sources": [
+      {
+        "id": "community",
+        "label": "Community / Rhein Sullivan",
+        "variants": [
+          "fill"
+        ]
+      }
+    ],
+    "cdnUrls": {
+      "fill": "https://cdn.jsdelivr.net/npm/atsarul-mujahidin@0.1.1/fill/mosque-dome-simple.js"
+    },
+    "apiEndpoint": "/api/icons/mosque-dome-simple"
+  },
+  {
+    "name": "mosque-simple",
+    "title": "Mosque Simple",
+    "category": "mosque",
+    "variants": [
+      "fill"
+    ],
+    "sources": [
+      {
+        "id": "community",
+        "label": "Community / Rhein Sullivan",
+        "variants": [
+          "fill"
+        ]
+      }
+    ],
+    "cdnUrls": {
+      "fill": "https://cdn.jsdelivr.net/npm/atsarul-mujahidin@0.1.1/fill/mosque-simple.js"
+    },
+    "apiEndpoint": "/api/icons/mosque-simple"
+  },
+  {
+    "name": "mosque-with-minarets",
+    "title": "Mosque With Minarets",
+    "category": "mosque",
+    "variants": [
+      "fill"
+    ],
+    "sources": [
+      {
+        "id": "community",
+        "label": "Community / Rhein Sullivan",
+        "variants": [
+          "fill"
+        ]
+      }
+    ],
+    "cdnUrls": {
+      "fill": "https://cdn.jsdelivr.net/npm/atsarul-mujahidin@0.1.1/fill/mosque-with-minarets.js"
+    },
+    "apiEndpoint": "/api/icons/mosque-with-minarets"
+  },
+  {
+    "name": "atsarul-mujahidin",
+    "title": "Atsarul Mujahidin",
+    "category": "muslim-brand",
+    "variants": [
+      "fill",
+      "color"
+    ],
+    "sources": [
+      {
+        "id": "community",
+        "label": "Community / Rhein Sullivan",
+        "variants": [
+          "fill",
+          "color"
+        ]
+      }
+    ],
+    "cdnUrls": {
+      "fill": "https://cdn.jsdelivr.net/npm/atsarul-mujahidin@0.1.1/fill/atsarul-mujahidin.js",
+      "color": "https://cdn.jsdelivr.net/npm/atsarul-mujahidin@0.1.1/color/atsarul-mujahidin.js"
+    },
+    "apiEndpoint": "/api/icons/atsarul-mujahidin"
+  },
+  {
+    "name": "islamic-icon-logo",
+    "title": "Islamic Icon Logo",
+    "category": "muslim-brand",
+    "variants": [
+      "fill"
+    ],
+    "sources": [
+      {
+        "id": "community",
+        "label": "Community / Rhein Sullivan",
+        "variants": [
+          "fill"
+        ]
+      }
+    ],
+    "cdnUrls": {
+      "fill": "https://cdn.jsdelivr.net/npm/atsarul-mujahidin@0.1.1/fill/islamic-icon-logo.js"
+    },
+    "apiEndpoint": "/api/icons/islamic-icon-logo"
+  },
+  {
+    "name": "crescent-star-frame",
+    "title": "Crescent Star Frame",
+    "category": "ornamen",
+    "variants": [
+      "fill"
+    ],
+    "sources": [
+      {
+        "id": "community",
+        "label": "Community / Rhein Sullivan",
+        "variants": [
+          "fill"
+        ]
+      }
+    ],
+    "cdnUrls": {
+      "fill": "https://cdn.jsdelivr.net/npm/atsarul-mujahidin@0.1.1/fill/crescent-star-frame.js"
+    },
+    "apiEndpoint": "/api/icons/crescent-star-frame"
+  },
+  {
+    "name": "crescent-star-frame-outline",
+    "title": "Crescent Star Frame Outline",
+    "category": "ornamen",
+    "variants": [
+      "outline"
+    ],
+    "sources": [
+      {
+        "id": "community",
+        "label": "Community / Rhein Sullivan",
+        "variants": [
+          "outline"
+        ]
+      }
+    ],
+    "cdnUrls": {
+      "outline": "https://cdn.jsdelivr.net/npm/atsarul-mujahidin@0.1.1/outline/crescent-star-frame-outline.js"
+    },
+    "apiEndpoint": "/api/icons/crescent-star-frame-outline"
+  },
+  {
+    "name": "crescent-star-outline",
+    "title": "Crescent Star Outline",
+    "category": "ornamen",
+    "variants": [
+      "outline"
+    ],
+    "sources": [
+      {
+        "id": "community",
+        "label": "Community / Rhein Sullivan",
+        "variants": [
+          "outline"
+        ]
+      }
+    ],
+    "cdnUrls": {
+      "outline": "https://cdn.jsdelivr.net/npm/atsarul-mujahidin@0.1.1/outline/crescent-star-outline.js"
+    },
+    "apiEndpoint": "/api/icons/crescent-star-outline"
+  },
+  {
+    "name": "islamic-crescent-with-small-star-svgrepo-com",
+    "title": "Islamic Crescent With Small Star",
+    "category": "ornamen",
+    "variants": [
+      "fill"
+    ],
+    "sources": [
+      {
+        "id": "community",
+        "label": "Community / Rhein Sullivan",
+        "variants": [
+          "fill"
+        ]
+      }
+    ],
+    "cdnUrls": {
+      "fill": "https://cdn.jsdelivr.net/npm/atsarul-mujahidin@0.1.1/fill/islamic-crescent-with-small-star-svgrepo-com.js"
+    },
+    "apiEndpoint": "/api/icons/islamic-crescent-with-small-star-svgrepo-com"
+  },
+  {
+    "name": "lantern-outline",
+    "title": "Lantern Outline",
+    "category": "ornamen",
+    "variants": [
+      "outline"
+    ],
+    "sources": [
+      {
+        "id": "community",
+        "label": "Community / Rhein Sullivan",
+        "variants": [
+          "outline"
+        ]
+      }
+    ],
+    "cdnUrls": {
+      "outline": "https://cdn.jsdelivr.net/npm/atsarul-mujahidin@0.1.1/outline/lantern-outline.js"
+    },
+    "apiEndpoint": "/api/icons/lantern-outline"
+  },
+  {
+    "name": "moon-star-outline",
+    "title": "Moon Star Outline",
+    "category": "ornamen",
+    "variants": [
+      "outline"
+    ],
+    "sources": [
+      {
+        "id": "community",
+        "label": "Community / Rhein Sullivan",
+        "variants": [
+          "outline"
+        ]
+      }
+    ],
+    "cdnUrls": {
+      "outline": "https://cdn.jsdelivr.net/npm/atsarul-mujahidin@0.1.1/outline/moon-star-outline.js"
+    },
+    "apiEndpoint": "/api/icons/moon-star-outline"
+  },
+  {
+    "name": "moon-start",
+    "title": "Moon Start",
+    "category": "ornamen",
+    "variants": [
+      "fill"
+    ],
+    "sources": [
+      {
+        "id": "community",
+        "label": "Community / Rhein Sullivan",
+        "variants": [
+          "fill"
+        ]
+      }
+    ],
+    "cdnUrls": {
+      "fill": "https://cdn.jsdelivr.net/npm/atsarul-mujahidin@0.1.1/fill/moon-start.js"
+    },
+    "apiEndpoint": "/api/icons/moon-start"
+  },
+  {
+    "name": "mosque-maps",
+    "title": "Mosque Maps",
+    "category": "ornamen",
+    "variants": [
+      "fill"
+    ],
+    "sources": [
+      {
+        "id": "community",
+        "label": "Community / Rhein Sullivan",
+        "variants": [
+          "fill"
+        ]
+      }
+    ],
+    "cdnUrls": {
+      "fill": "https://cdn.jsdelivr.net/npm/atsarul-mujahidin@0.1.1/fill/mosque-maps.js"
+    },
+    "apiEndpoint": "/api/icons/mosque-maps"
+  },
+  {
+    "name": "islamic-pattern-1",
+    "title": "Islamic Pattern 1",
+    "category": "patterns",
+    "variants": [
+      "outline"
+    ],
+    "sources": [
+      {
+        "id": "community",
+        "label": "Community / Rhein Sullivan",
+        "variants": [
+          "outline"
+        ]
+      }
+    ],
+    "cdnUrls": {
+      "outline": "https://cdn.jsdelivr.net/npm/atsarul-mujahidin@0.1.1/outline/islamic-pattern-1.js"
+    },
+    "apiEndpoint": "/api/icons/islamic-pattern-1"
+  },
+  {
+    "name": "islamic-pattern-2",
+    "title": "Islamic Pattern 2",
+    "category": "patterns",
+    "variants": [
+      "fill"
+    ],
+    "sources": [
+      {
+        "id": "community",
+        "label": "Community / Rhein Sullivan",
+        "variants": [
+          "fill"
+        ]
+      }
+    ],
+    "cdnUrls": {
+      "fill": "https://cdn.jsdelivr.net/npm/atsarul-mujahidin@0.1.1/fill/islamic-pattern-2.js"
+    },
+    "apiEndpoint": "/api/icons/islamic-pattern-2"
+  },
+  {
+    "name": "islamic-pattern-3",
+    "title": "Islamic Pattern 3",
+    "category": "patterns",
+    "variants": [
+      "outline"
+    ],
+    "sources": [
+      {
+        "id": "community",
+        "label": "Community / Rhein Sullivan",
+        "variants": [
+          "outline"
+        ]
+      }
+    ],
+    "cdnUrls": {
+      "outline": "https://cdn.jsdelivr.net/npm/atsarul-mujahidin@0.1.1/outline/islamic-pattern-3.js"
+    },
+    "apiEndpoint": "/api/icons/islamic-pattern-3"
+  },
+  {
+    "name": "islamic-pattern-4",
+    "title": "Islamic Pattern 4",
+    "category": "patterns",
+    "variants": [
+      "outline"
+    ],
+    "sources": [
+      {
+        "id": "community",
+        "label": "Community / Rhein Sullivan",
+        "variants": [
+          "outline"
+        ]
+      }
+    ],
+    "cdnUrls": {
+      "outline": "https://cdn.jsdelivr.net/npm/atsarul-mujahidin@0.1.1/outline/islamic-pattern-4.js"
+    },
+    "apiEndpoint": "/api/icons/islamic-pattern-4"
+  },
+  {
+    "name": "islamic-pattern-5",
+    "title": "Islamic Pattern 5",
+    "category": "patterns",
+    "variants": [
+      "outline"
+    ],
+    "sources": [
+      {
+        "id": "community",
+        "label": "Community / Rhein Sullivan",
+        "variants": [
+          "outline"
+        ]
+      }
+    ],
+    "cdnUrls": {
+      "outline": "https://cdn.jsdelivr.net/npm/atsarul-mujahidin@0.1.1/outline/islamic-pattern-5.js"
+    },
+    "apiEndpoint": "/api/icons/islamic-pattern-5"
+  },
+  {
+    "name": "islamic-pattern-6",
+    "title": "Islamic Pattern 6",
+    "category": "patterns",
+    "variants": [
+      "outline"
+    ],
+    "sources": [
+      {
+        "id": "community",
+        "label": "Community / Rhein Sullivan",
+        "variants": [
+          "outline"
+        ]
+      }
+    ],
+    "cdnUrls": {
+      "outline": "https://cdn.jsdelivr.net/npm/atsarul-mujahidin@0.1.1/outline/islamic-pattern-6.js"
+    },
+    "apiEndpoint": "/api/icons/islamic-pattern-6"
+  },
+  {
+    "name": "islamic-pattern-7",
+    "title": "Islamic Pattern 7",
+    "category": "patterns",
+    "variants": [
+      "outline"
+    ],
+    "sources": [
+      {
+        "id": "community",
+        "label": "Community / Rhein Sullivan",
+        "variants": [
+          "outline"
+        ]
+      }
+    ],
+    "cdnUrls": {
+      "outline": "https://cdn.jsdelivr.net/npm/atsarul-mujahidin@0.1.1/outline/islamic-pattern-7.js"
+    },
+    "apiEndpoint": "/api/icons/islamic-pattern-7"
+  },
+  {
+    "name": "islamic-pattern-color-1",
+    "title": "Islamic Pattern Color 1",
+    "category": "patterns",
+    "variants": [
+      "color"
+    ],
+    "sources": [
+      {
+        "id": "community",
+        "label": "Community / Rhein Sullivan",
+        "variants": [
+          "color"
+        ]
+      }
+    ],
+    "cdnUrls": {
+      "color": "https://cdn.jsdelivr.net/npm/atsarul-mujahidin@0.1.1/color/islamic-pattern-color-1.js"
+    },
+    "apiEndpoint": "/api/icons/islamic-pattern-color-1"
+  },
+  {
+    "name": "islamic-pattern-color-2",
+    "title": "Islamic Pattern Color 2",
+    "category": "patterns",
+    "variants": [
+      "color"
+    ],
+    "sources": [
+      {
+        "id": "community",
+        "label": "Community / Rhein Sullivan",
+        "variants": [
+          "color"
+        ]
+      }
+    ],
+    "cdnUrls": {
+      "color": "https://cdn.jsdelivr.net/npm/atsarul-mujahidin@0.1.1/color/islamic-pattern-color-2.js"
+    },
+    "apiEndpoint": "/api/icons/islamic-pattern-color-2"
+  },
+  {
+    "name": "adhan-call",
+    "title": "Adhan Call",
+    "category": "prayer",
+    "variants": [
+      "fill"
+    ],
+    "sources": [
+      {
+        "id": "community",
+        "label": "Community / Rhein Sullivan",
+        "variants": [
+          "fill"
+        ]
+      }
+    ],
+    "cdnUrls": {
+      "fill": "https://cdn.jsdelivr.net/npm/atsarul-mujahidin@0.1.1/fill/adhan-call.js"
+    },
+    "apiEndpoint": "/api/icons/adhan-call"
+  },
+  {
+    "name": "dua-hands",
+    "title": "Dua Hands",
+    "category": "prayer",
+    "variants": [
+      "fill"
+    ],
+    "sources": [
+      {
+        "id": "community",
+        "label": "Community / Rhein Sullivan",
+        "variants": [
+          "fill"
+        ]
+      }
+    ],
+    "cdnUrls": {
+      "fill": "https://cdn.jsdelivr.net/npm/atsarul-mujahidin@0.1.1/fill/dua-hands.js"
+    },
+    "apiEndpoint": "/api/icons/dua-hands"
+  },
+  {
+    "name": "muslim-prayer-svgrepo-com",
+    "title": "Muslim Prayer",
+    "category": "prayer",
+    "variants": [
+      "fill"
+    ],
+    "sources": [
+      {
+        "id": "community",
+        "label": "Community / Rhein Sullivan",
+        "variants": [
+          "fill"
+        ]
+      }
+    ],
+    "cdnUrls": {
+      "fill": "https://cdn.jsdelivr.net/npm/atsarul-mujahidin@0.1.1/fill/muslim-prayer-svgrepo-com.js"
+    },
+    "apiEndpoint": "/api/icons/muslim-prayer-svgrepo-com"
+  },
+  {
+    "name": "muslim-praying-1",
+    "title": "Muslim Praying 1",
+    "category": "prayer",
+    "variants": [
+      "fill"
+    ],
+    "sources": [
+      {
+        "id": "community",
+        "label": "Community / Rhein Sullivan",
+        "variants": [
+          "fill"
+        ]
+      }
+    ],
+    "cdnUrls": {
+      "fill": "https://cdn.jsdelivr.net/npm/atsarul-mujahidin@0.1.1/fill/muslim-praying-1.js"
+    },
+    "apiEndpoint": "/api/icons/muslim-praying-1"
+  },
+  {
+    "name": "muslim-praying-2",
+    "title": "Muslim Praying 2",
+    "category": "prayer",
+    "variants": [
+      "fill"
+    ],
+    "sources": [
+      {
+        "id": "community",
+        "label": "Community / Rhein Sullivan",
+        "variants": [
+          "fill"
+        ]
+      }
+    ],
+    "cdnUrls": {
+      "fill": "https://cdn.jsdelivr.net/npm/atsarul-mujahidin@0.1.1/fill/muslim-praying-2.js"
+    },
+    "apiEndpoint": "/api/icons/muslim-praying-2"
+  },
+  {
+    "name": "prayer-beads-outline",
+    "title": "Prayer Beads Outline",
+    "category": "prayer",
+    "variants": [
+      "outline"
+    ],
+    "sources": [
+      {
+        "id": "community",
+        "label": "Community / Rhein Sullivan",
+        "variants": [
+          "outline"
+        ]
+      }
+    ],
+    "cdnUrls": {
+      "outline": "https://cdn.jsdelivr.net/npm/atsarul-mujahidin@0.1.1/outline/prayer-beads-outline.js"
+    },
+    "apiEndpoint": "/api/icons/prayer-beads-outline"
+  },
+  {
+    "name": "prayer-beads-tasbih",
+    "title": "Prayer Beads Tasbih",
+    "category": "prayer",
+    "variants": [
+      "fill"
+    ],
+    "sources": [
+      {
+        "id": "community",
+        "label": "Community / Rhein Sullivan",
+        "variants": [
+          "fill"
+        ]
+      }
+    ],
+    "cdnUrls": {
+      "fill": "https://cdn.jsdelivr.net/npm/atsarul-mujahidin@0.1.1/fill/prayer-beads-tasbih.js"
+    },
+    "apiEndpoint": "/api/icons/prayer-beads-tasbih"
+  },
+  {
+    "name": "prayer-mat",
+    "title": "Prayer Mat",
+    "category": "prayer",
+    "variants": [
+      "fill"
+    ],
+    "sources": [
+      {
+        "id": "community",
+        "label": "Community / Rhein Sullivan",
+        "variants": [
+          "fill"
+        ]
+      }
+    ],
+    "cdnUrls": {
+      "fill": "https://cdn.jsdelivr.net/npm/atsarul-mujahidin@0.1.1/fill/prayer-mat.js"
+    },
+    "apiEndpoint": "/api/icons/prayer-mat"
+  },
+  {
+    "name": "prayer-position",
+    "title": "Prayer Position",
+    "category": "prayer",
+    "variants": [
+      "fill"
+    ],
+    "sources": [
+      {
+        "id": "community",
+        "label": "Community / Rhein Sullivan",
+        "variants": [
+          "fill"
+        ]
+      }
+    ],
+    "cdnUrls": {
+      "fill": "https://cdn.jsdelivr.net/npm/atsarul-mujahidin@0.1.1/fill/prayer-position.js"
+    },
+    "apiEndpoint": "/api/icons/prayer-position"
+  },
+  {
+    "name": "prayer-rug",
+    "title": "Prayer Rug",
+    "category": "prayer",
+    "variants": [
+      "fill"
+    ],
+    "sources": [
+      {
+        "id": "community",
+        "label": "Community / Rhein Sullivan",
+        "variants": [
+          "fill"
+        ]
+      }
+    ],
+    "cdnUrls": {
+      "fill": "https://cdn.jsdelivr.net/npm/atsarul-mujahidin@0.1.1/fill/prayer-rug.js"
+    },
+    "apiEndpoint": "/api/icons/prayer-rug"
+  },
+  {
+    "name": "prayer-time",
+    "title": "Prayer Time",
+    "category": "prayer",
+    "variants": [
+      "fill"
+    ],
+    "sources": [
+      {
+        "id": "community",
+        "label": "Community / Rhein Sullivan",
+        "variants": [
+          "fill"
+        ]
+      }
+    ],
+    "cdnUrls": {
+      "fill": "https://cdn.jsdelivr.net/npm/atsarul-mujahidin@0.1.1/fill/prayer-time.js"
+    },
+    "apiEndpoint": "/api/icons/prayer-time"
+  },
+  {
+    "name": "qibla-direction",
+    "title": "Qibla Direction",
+    "category": "prayer",
+    "variants": [
+      "fill"
+    ],
+    "sources": [
+      {
+        "id": "community",
+        "label": "Community / Rhein Sullivan",
+        "variants": [
+          "fill"
+        ]
+      }
+    ],
+    "cdnUrls": {
+      "fill": "https://cdn.jsdelivr.net/npm/atsarul-mujahidin@0.1.1/fill/qibla-direction.js"
+    },
+    "apiEndpoint": "/api/icons/qibla-direction"
+  },
+  {
+    "name": "quran-holder-outline",
+    "title": "Quran Holder Outline",
+    "category": "prayer",
+    "variants": [
+      "outline"
+    ],
+    "sources": [
+      {
+        "id": "community",
+        "label": "Community / Rhein Sullivan",
+        "variants": [
+          "outline"
+        ]
+      }
+    ],
+    "cdnUrls": {
+      "outline": "https://cdn.jsdelivr.net/npm/atsarul-mujahidin@0.1.1/outline/quran-holder-outline.js"
+    },
+    "apiEndpoint": "/api/icons/quran-holder-outline"
+  },
+  {
+    "name": "quran-stand",
+    "title": "Quran Stand",
+    "category": "prayer",
+    "variants": [
+      "fill"
+    ],
+    "sources": [
+      {
+        "id": "community",
+        "label": "Community / Rhein Sullivan",
+        "variants": [
+          "fill"
+        ]
+      }
+    ],
+    "cdnUrls": {
+      "fill": "https://cdn.jsdelivr.net/npm/atsarul-mujahidin@0.1.1/fill/quran-stand.js"
+    },
+    "apiEndpoint": "/api/icons/quran-stand"
+  },
+  {
+    "name": "ruku-bowing",
+    "title": "Ruku Bowing",
+    "category": "prayer",
+    "variants": [
+      "fill"
+    ],
+    "sources": [
+      {
+        "id": "community",
+        "label": "Community / Rhein Sullivan",
+        "variants": [
+          "fill"
+        ]
+      }
+    ],
+    "cdnUrls": {
+      "fill": "https://cdn.jsdelivr.net/npm/atsarul-mujahidin@0.1.1/fill/ruku-bowing.js"
+    },
+    "apiEndpoint": "/api/icons/ruku-bowing"
+  },
+  {
+    "name": "sajadah-prayer-mat",
+    "title": "Sajadah Prayer Mat",
+    "category": "prayer",
+    "variants": [
+      "fill"
+    ],
+    "sources": [
+      {
+        "id": "community",
+        "label": "Community / Rhein Sullivan",
+        "variants": [
+          "fill"
+        ]
+      }
+    ],
+    "cdnUrls": {
+      "fill": "https://cdn.jsdelivr.net/npm/atsarul-mujahidin@0.1.1/fill/sajadah-prayer-mat.js"
+    },
+    "apiEndpoint": "/api/icons/sajadah-prayer-mat"
+  },
+  {
+    "name": "salah-praying",
+    "title": "Salah Praying",
+    "category": "prayer",
+    "variants": [
+      "fill"
+    ],
+    "sources": [
+      {
+        "id": "community",
+        "label": "Community / Rhein Sullivan",
+        "variants": [
+          "fill"
+        ]
+      }
+    ],
+    "cdnUrls": {
+      "fill": "https://cdn.jsdelivr.net/npm/atsarul-mujahidin@0.1.1/fill/salah-praying.js"
+    },
+    "apiEndpoint": "/api/icons/salah-praying"
+  },
+  {
+    "name": "sujud-prostration",
+    "title": "Sujud Prostration",
+    "category": "prayer",
+    "variants": [
+      "fill"
+    ],
+    "sources": [
+      {
+        "id": "community",
+        "label": "Community / Rhein Sullivan",
+        "variants": [
+          "fill"
+        ]
+      }
+    ],
+    "cdnUrls": {
+      "fill": "https://cdn.jsdelivr.net/npm/atsarul-mujahidin@0.1.1/fill/sujud-prostration.js"
+    },
+    "apiEndpoint": "/api/icons/sujud-prostration"
+  },
+  {
+    "name": "takbir-hands",
+    "title": "Takbir Hands",
+    "category": "prayer",
+    "variants": [
+      "fill"
+    ],
+    "sources": [
+      {
+        "id": "community",
+        "label": "Community / Rhein Sullivan",
+        "variants": [
+          "fill"
+        ]
+      }
+    ],
+    "cdnUrls": {
+      "fill": "https://cdn.jsdelivr.net/npm/atsarul-mujahidin@0.1.1/fill/takbir-hands.js"
+    },
+    "apiEndpoint": "/api/icons/takbir-hands"
+  },
+  {
+    "name": "tasbih-beads-outline",
+    "title": "Tasbih Beads Outline",
+    "category": "prayer",
+    "variants": [
+      "outline"
+    ],
+    "sources": [
+      {
+        "id": "community",
+        "label": "Community / Rhein Sullivan",
+        "variants": [
+          "outline"
+        ]
+      }
+    ],
+    "cdnUrls": {
+      "outline": "https://cdn.jsdelivr.net/npm/atsarul-mujahidin@0.1.1/outline/tasbih-beads-outline.js"
+    },
+    "apiEndpoint": "/api/icons/tasbih-beads-outline"
+  },
+  {
+    "name": "wudhu-ablution",
+    "title": "Wudhu Ablution",
+    "category": "prayer",
+    "variants": [
+      "fill"
+    ],
+    "sources": [
+      {
+        "id": "community",
+        "label": "Community / Rhein Sullivan",
+        "variants": [
+          "fill"
+        ]
+      }
+    ],
+    "cdnUrls": {
+      "fill": "https://cdn.jsdelivr.net/npm/atsarul-mujahidin@0.1.1/fill/wudhu-ablution.js"
+    },
+    "apiEndpoint": "/api/icons/wudhu-ablution"
+  },
+  {
+    "name": "muhammad-calligraphy",
+    "title": "Muhammad Calligraphy",
+    "category": "prophet",
+    "variants": [
+      "fill"
+    ],
+    "sources": [
+      {
+        "id": "community",
+        "label": "Community / Rhein Sullivan",
+        "variants": [
+          "fill"
+        ]
+      }
+    ],
+    "cdnUrls": {
+      "fill": "https://cdn.jsdelivr.net/npm/atsarul-mujahidin@0.1.1/fill/muhammad-calligraphy.js"
+    },
+    "apiEndpoint": "/api/icons/muhammad-calligraphy"
+  },
+  {
+    "name": "arabic-calligraphy-1",
+    "title": "Arabic Calligraphy 1",
+    "category": "qalligraphy",
+    "variants": [
+      "fill"
+    ],
+    "sources": [
+      {
+        "id": "community",
+        "label": "Community / Rhein Sullivan",
+        "variants": [
+          "fill"
+        ]
+      }
+    ],
+    "cdnUrls": {
+      "fill": "https://cdn.jsdelivr.net/npm/atsarul-mujahidin@0.1.1/fill/arabic-calligraphy-1.js"
+    },
+    "apiEndpoint": "/api/icons/arabic-calligraphy-1"
+  },
+  {
+    "name": "arabic-calligraphy-2",
+    "title": "Arabic Calligraphy 2",
+    "category": "qalligraphy",
+    "variants": [
+      "fill"
+    ],
+    "sources": [
+      {
+        "id": "community",
+        "label": "Community / Rhein Sullivan",
+        "variants": [
+          "fill"
+        ]
+      }
+    ],
+    "cdnUrls": {
+      "fill": "https://cdn.jsdelivr.net/npm/atsarul-mujahidin@0.1.1/fill/arabic-calligraphy-2.js"
+    },
+    "apiEndpoint": "/api/icons/arabic-calligraphy-2"
+  },
+  {
+    "name": "basmallah",
+    "title": "Basmallah",
+    "category": "qalligraphy",
+    "variants": [
+      "fill"
+    ],
+    "sources": [
+      {
+        "id": "community",
+        "label": "Community / Rhein Sullivan",
+        "variants": [
+          "fill"
+        ]
+      }
+    ],
+    "cdnUrls": {
+      "fill": "https://cdn.jsdelivr.net/npm/atsarul-mujahidin@0.1.1/fill/basmallah.js"
+    },
+    "apiEndpoint": "/api/icons/basmallah"
+  },
+  {
+    "name": "bismillah-calligraphy",
+    "title": "Bismillah Calligraphy",
+    "category": "qalligraphy",
+    "variants": [
+      "fill"
+    ],
+    "sources": [
+      {
+        "id": "community",
+        "label": "Community / Rhein Sullivan",
+        "variants": [
+          "fill"
+        ]
+      }
+    ],
+    "cdnUrls": {
+      "fill": "https://cdn.jsdelivr.net/npm/atsarul-mujahidin@0.1.1/fill/bismillah-calligraphy.js"
+    },
+    "apiEndpoint": "/api/icons/bismillah-calligraphy"
+  },
+  {
+    "name": "quran-svgrepo-com",
+    "title": "Quran",
+    "category": "quran",
+    "variants": [
+      "fill"
+    ],
+    "sources": [
+      {
+        "id": "community",
+        "label": "Community / Rhein Sullivan",
+        "variants": [
+          "fill"
+        ]
+      }
+    ],
+    "cdnUrls": {
+      "fill": "https://cdn.jsdelivr.net/npm/atsarul-mujahidin@0.1.1/fill/quran-svgrepo-com.js"
+    },
+    "apiEndpoint": "/api/icons/quran-svgrepo-com"
+  },
+  {
+    "name": "quran-book",
+    "title": "Quran Book",
+    "category": "quran",
+    "variants": [
+      "fill"
+    ],
+    "sources": [
+      {
+        "id": "community",
+        "label": "Community / Rhein Sullivan",
+        "variants": [
+          "fill"
+        ]
+      }
+    ],
+    "cdnUrls": {
+      "fill": "https://cdn.jsdelivr.net/npm/atsarul-mujahidin@0.1.1/fill/quran-book.js"
+    },
+    "apiEndpoint": "/api/icons/quran-book"
+  },
+  {
+    "name": "quran-stand-outline",
+    "title": "Quran Stand Outline",
+    "category": "quran",
+    "variants": [
+      "outline"
+    ],
+    "sources": [
+      {
+        "id": "community",
+        "label": "Community / Rhein Sullivan",
+        "variants": [
+          "outline"
+        ]
+      }
+    ],
+    "cdnUrls": {
+      "outline": "https://cdn.jsdelivr.net/npm/atsarul-mujahidin@0.1.1/outline/quran-stand-outline.js"
+    },
+    "apiEndpoint": "/api/icons/quran-stand-outline"
+  }
+]

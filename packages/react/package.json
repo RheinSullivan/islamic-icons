@@ -1,0 +1,16 @@
+{
+  "name": "@atsarul-mujahidin/react",
+  "version": "0.1.0",
+  "type": "module",
+  "peerDependencies": {
+    "atsarul-mujahidin": "^0.1.0",
+    "react": "^18 || ^19"
+  },
+  "files": [
+    "*.js",
+    "*.ts",
+    "*.svelte",
+    "*.vue",
+    "README.md"
+  ]
+}
