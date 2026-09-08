@@ -3,8 +3,13 @@
     "target": "ESNext",
     "module": "NodeNext",
     "moduleResolution": "NodeNext",
-    "lib": ["ESNext", "DOM"],
-    "types": ["node"],
+    "lib": [
+      "ESNext",
+      "DOM"
+    ],
+    "types": [
+      "node"
+    ],
     "strict": true,
     "esModuleInterop": true,
     "skipLibCheck": true,
@@ -15,5 +20,12 @@
     "noImplicitAny": false,
     "noEmit": true
   },
-  "include": ["scripts/**/*", "*.js", "*.d.ts"]
+  "include": [
+    "scripts/**/*",
+    "*.js",
+    "*.d.ts"
+  ],
+  "exclude": [
+    "node_modules"
+  ]
 }

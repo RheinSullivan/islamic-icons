@@ -8,50 +8,69 @@ Use the semantic category that contains the icon you need. Framework and library
 
 ### Import Pattern
 
-```js
-// Import per-icon with variant suffix:
-import { Kaaba } from 'atsarul-mujahidin/react/kaaba-fill';
-import { Kaaba as KaabaOutline } from 'atsarul-mujahidin/react/kaaba-outline';
-import { Kaaba as KaabaColor } from 'atsarul-mujahidin/react/kaaba-color';
+**React / Next.js**
+```jsx
+import WudhuAblution from 'atsarul-mujahidin/react/wudhu-ablution-fill';
 
-// Use in JSX:
-<Kaaba className="icon" size={32} style={{ color: '#10b981' }} />
-<KaabaOutline size={24} />
-<KaabaColor size={48} />
+export function MyComponent() {
+  return <WudhuAblution size={32} />;
+}
+```
+
+**Vue / Nuxt**
+```vue
+<script setup>
+import WudhuAblution from 'atsarul-mujahidin/vue/wudhu-ablution-fill';
+</script>
+
+<template>
+  <WudhuAblution :size="32" />
+</template>
+```
+
+**Svelte / SvelteKit**
+```svelte
+<script>
+  import WudhuAblution from 'atsarul-mujahidin/svelte/fill/WudhuAblution';
+</script>
+
+<WudhuAblution size={32} />
 ```
 
 **Icon Name Format:**
-- Convert icon name to PascalCase (e.g., `mosque-simple` → `MosqueSimple`)
+- Convert icon name to PascalCase (e.g., `wudhu-ablution` → `WudhuAblution`)
 - Append variant: `-fill`, `-outline`, `-color`
-- Framework prefix: `react/`, `vue/`, `svelte/`, etc.
+- Framework prefix: `react/`, `vue/`, `svelte/fill/`, etc.
+- Note: Svelte imports use the folder structure `svelte/fill/`, `svelte/outline/`, `svelte/color/`
 
 For a React-style project, the same component can be imported from the relevant framework adapter and rendered directly in JSX.
 
 ## Native HTML (Web Component)
 
-**NO IMPORT NEEDED** - Use CDN or local script like Bootstrap Icons:
+**NO IMPORT NEEDED** - Use CDN or local script:
 
 ### Via CDN (Recommended)
 
 ```html
 <!-- Add this once in your HTML head or before closing body tag -->
-<script src="https://cdn.jsdelivr.net/npm/atsarul-mujahidin@0.1.0/vanilla/atsarul-mujahidin.js"></script>
+<script type="module" src="https://cdn.jsdelivr.net/npm/atsarul-mujahidin@0.1.3/vanilla/atsarul-mujahidin.js"></script>
 
 <!-- Then use anywhere in your HTML -->
-<atsarul-mujahidin variant="mosque" colors="#10b981" size="32">Masjid</atsarul-mujahidin>
-<atsarul-mujahidin variant="quran" colors="#3b82f6" size="24">Al-Quran</atsarul-mujahidin>
-<atsarul-mujahidin variant="kaaba" colors="#ef4444" size="48">Kaaba</atsarul-mujahidin>
+<atsarul-mujahidin-icon name="wudhu-ablution" variant="fill" size="32"></atsarul-mujahidin-icon>
+<atsarul-mujahidin-icon name="kaaba" variant="fill" size="48"></atsarul-mujahidin-icon>
+<atsarul-mujahidin-icon name="quran-book" variant="outline" size="24"></atsarul-mujahidin-icon>
 ```
 
 ### Via NPM Install
 
 ```html
 <!-- After: npm install atsarul-mujahidin -->
-<!-- Add this script tag in your HTML -->
-<script src="node_modules/atsarul-mujahidin/vanilla/atsarul-mujahidin.js"></script>
+<script type="module">
+  import 'atsarul-mujahidin/vanilla/atsarul-mujahidin.js';
+</script>
 
 <!-- Then use the web component -->
-<atsarul-mujahidin variant="mosque" colors="#10b981" size="32">Masjid</atsarul-mujahidin>
+<atsarul-mujahidin-icon name="wudhu-ablution" variant="fill" size="32"></atsarul-mujahidin-icon>
 ```
 
 ## Direct SVG Module Import
@@ -78,9 +97,10 @@ All framework components accept the following props:
 
 | Attribute | Type | Default | Description |
 | --- | --- | --- | --- |
-| `variant` | `string` | required | Icon name (lowercase with hyphens) |
+| `name` | `string` | required | Icon name (lowercase with hyphens, e.g., `wudhu-ablution`) |
+| `variant` | `string` | `fill` | Icon variant: `fill`, `outline`, or `color` |
 | `size` | `string` | `24` | Width and height in pixels |
-| `colors` | `string` | - | CSS color value |
+| `color` | `string` | - | CSS color value (for fill/outline variants) |
 | `class` | `string` | - | CSS class name(s) |
 | `style` | `string` | - | Inline CSS styles |
 
