@@ -10,21 +10,31 @@ Use the semantic category that contains the icon you need. Framework and library
 
 **React / Next.js**
 ```jsx
-import WudhuAblution from 'atsarul-mujahidin/react/wudhu-ablution-fill';
+import MosqueSimple from 'atsarul-mujahidin/react/mosque-simple-fill';
+import QuranBook from 'atsarul-mujahidin/react/quran-book-fill';
 
 export function MyComponent() {
-  return <WudhuAblution size={32} />;
+  return (
+    <>
+      <MosqueSimple size={32} />
+      <QuranBook size={28} />
+    </>
+  );
 }
 ```
 
 **Vue / Nuxt**
 ```vue
 <script setup>
-import WudhuAblution from 'atsarul-mujahidin/vue/wudhu-ablution-fill';
+import Crescent from 'atsarul-mujahidin/vue/crescent-fill';
+import Kaaba from 'atsarul-mujahidin/vue/kaaba-fill';
 </script>
 
 <template>
-  <WudhuAblution :size="32" />
+  <div>
+    <Crescent :size="32" />
+    <Kaaba :size="48" />
+  </div>
 </template>
 ```
 
@@ -32,9 +42,11 @@ import WudhuAblution from 'atsarul-mujahidin/vue/wudhu-ablution-fill';
 ```svelte
 <script>
   import WudhuAblution from 'atsarul-mujahidin/svelte/fill/WudhuAblution';
+  import TasbihBeads from 'atsarul-mujahidin/svelte/outline/TasbihBeadsOutline';
 </script>
 
 <WudhuAblution size={32} />
+<TasbihBeads size={36} />
 ```
 
 **Icon Name Format:**
@@ -56,7 +68,9 @@ For a React-style project, the same component can be imported from the relevant 
 <script type="module" src="https://cdn.jsdelivr.net/npm/atsarul-mujahidin@0.1.3/vanilla/atsarul-mujahidin.js"></script>
 
 <!-- Then use anywhere in your HTML -->
-<atsarul-mujahidin-icon name="wudhu-ablution" variant="fill" size="32"></atsarul-mujahidin-icon>
+<atsarul-mujahidin-icon name="mosque-simple" variant="fill" size="32"></atsarul-mujahidin-icon>
+<atsarul-mujahidin-icon name="crescent" variant="fill" size="28"></atsarul-mujahidin-icon>
+<atsarul-mujahidin-icon name="quran-book" variant="outline" size="24"></atsarul-mujahidin-icon>
 <atsarul-mujahidin-icon name="kaaba" variant="fill" size="48"></atsarul-mujahidin-icon>
 <atsarul-mujahidin-icon name="quran-book" variant="outline" size="24"></atsarul-mujahidin-icon>
 ```
