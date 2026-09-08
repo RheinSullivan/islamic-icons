@@ -1,6 +1,6 @@
 {
   "name": "atsarul-mujahidin",
-  "version": "0.1.2",
+  "version": "0.1.3",
   "description": "Framework-agnostic Islamic SVG and WebP icon library for modern web apps. 81+ icons including mosque, prayer, Quran, Ramadan, Palestine flag, kaaba, and more. Works with React, Vue, Svelte, Angular, Astro, vanilla JavaScript/TypeScript. By Rhein Sullivan and Vyagra Nexus™.",
   "author": {
     "name": "Rhein Sullivan",
@@ -10,7 +10,7 @@
   "contributors": [
     {
       "name": "Vyagra Nexus™ Team",
-      "url": "https://vyagra.dev"
+      "url": "https://vyagranexus.rheinsullivan.web.id/in"
     },
     {
       "name": "Atsarul Mujahidin Community",
